@@ -1,0 +1,13 @@
+2021-02-07T10:23:11.818-0300 I CONTROL  [initandlisten] MongoDB starting : pid=263 port=27017 dbpath=/mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data 64-bit host=DESKTOP-I3BT1R2
+2021-02-07T10:23:11.819-0300 I CONTROL  [initandlisten] db version v3.6.8
+2021-02-07T10:23:11.819-0300 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2021-02-07T10:23:11.819-0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2021-02-07T10:23:11.820-0300 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-02-07T10:23:11.820-0300 I CONTROL  [initandlisten] modules: none
+2021-02-07T10:23:11.820-0300 I CONTROL  [initandlisten] build environment:
+2021-02-07T10:23:11.820-0300 I CONTROL  [initandlisten]     distarch: x86_64
+2021-02-07T10:23:11.821-0300 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-02-07T10:23:11.822-0300 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "mongo-data" }, systemLog: { destination: "file", path: "mongo-data/mongo.log" } }
+2021-02-07T10:23:11.848-0300 I STORAGE  [initandlisten] exception in initAndListen: DBPathInUse: Unable to lock the lock file: /mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data/mongod.lock (Resource temporarily unavailable). Another mongod instance is already running on the /mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data directory, terminating
+2021-02-07T10:23:11.849-0300 I CONTROL  [initandlisten] now exiting
+2021-02-07T10:23:11.851-0300 I CONTROL  [initandlisten] shutting down with code:100
