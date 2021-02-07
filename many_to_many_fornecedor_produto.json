@@ -7,10 +7,12 @@
     "produtos": [
         {
             "_id": "p16",
+            "descricao": "Panela",
             "preco": 46.50
         },
         {
             "_id": "p21",
+            "descricao": "Prato",
             "preco": 12
         }
     ]
@@ -24,16 +26,16 @@
     "produtos": [
         {
             "_id": "p21",
+            "descricao": "Prato",
             "preco": 16
         },
         {
             "_id": "p47",
+            "descricao": "Faqueiro",
             "preco": 127.46
         }
     ]
 }
-
-
 // Collection Produtos
 {
     "_id": "p16",
@@ -41,9 +43,15 @@
     "fornecedores": [
         {
             "_id": "f04",
-            "preco": 46.50
+            "preco": 46.50,
+            "cep": "1098465"
         }
-    ]
+    ],
+    "peso": 4,
+    "unidade_peso": "kg",
+    "altura": 14,
+    "largura": 15,
+    "profundidade": 20
 }
  
 {
@@ -52,11 +60,13 @@
     "fornecedores": [
         {
             "_id": "f04",
-            "preco": 12
+            "preco": 12,
+            "cep": "1098465"
         },
         {
             "_id": "f07",
-            "preco": 16
+            "preco": 16,
+            "cep": "198498",
         }
     ]
 } 
@@ -67,7 +77,8 @@
     "fornecedores": [
         {
             "_id": "f07",
-            "preco": 127.46
+            "preco": 127.46,
+            "cep": "198498",
         }
     ]
 }

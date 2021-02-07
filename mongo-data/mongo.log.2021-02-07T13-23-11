@@ -35,3 +35,5 @@
 2021-02-07T10:21:42.178-0300 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data/diagnostic.data'
 2021-02-07T10:21:42.179-0300 I NETWORK  [initandlisten] waiting for connections on port 27017
 2021-02-07T10:21:43.022-0300 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2021-02-07T10:23:23.413-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:34308 #1 (1 connection now open)
+2021-02-07T10:23:23.415-0300 I NETWORK  [conn1] received client metadata from 127.0.0.1:34308 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
