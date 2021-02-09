@@ -37,3 +37,4 @@
 2021-02-07T10:21:43.022-0300 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
 2021-02-07T10:23:23.413-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:34308 #1 (1 connection now open)
 2021-02-07T10:23:23.415-0300 I NETWORK  [conn1] received client metadata from 127.0.0.1:34308 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2021-02-07T17:13:45.509-0300 I STORAGE  [conn1] createCollection: mydb.cars with generated UUID: a0dc4ecc-bcc2-4284-94c7-a54045e81d96
