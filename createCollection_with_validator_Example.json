@@ -1,0 +1,30 @@
+db.createCollection("cars", 
+{
+     validator:
+     {
+        $jsonSchema:
+        {
+            bsonType: "object",
+            required:["model", "year"], 
+            properties:
+            {
+                    model:
+                        {
+                            bsonType:"string", 
+                            description: "modelo e necessario que seja uma string"
+                        }, 
+                    madeBy:
+                        {
+                            bsonType:"string"
+                        },
+                    year:
+                        {
+                            bsonType:"int",
+                            minimum: 1980,
+                            maximum: 2025
+                        }
+            }
+        }
+    }
+}
+)
