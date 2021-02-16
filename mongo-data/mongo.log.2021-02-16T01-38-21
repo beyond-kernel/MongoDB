@@ -1,0 +1,60 @@
+2021-02-15T22:37:07.542-0300 I CONTROL  [initandlisten] MongoDB starting : pid=1223 port=27017 dbpath=mongo-data 64-bit host=DESKTOP-I3BT1R2
+2021-02-15T22:37:07.542-0300 I CONTROL  [initandlisten] db version v3.6.8
+2021-02-15T22:37:07.543-0300 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2021-02-15T22:37:07.543-0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2021-02-15T22:37:07.543-0300 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-02-15T22:37:07.543-0300 I CONTROL  [initandlisten] modules: none
+2021-02-15T22:37:07.543-0300 I CONTROL  [initandlisten] build environment:
+2021-02-15T22:37:07.544-0300 I CONTROL  [initandlisten]     distarch: x86_64
+2021-02-15T22:37:07.544-0300 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-02-15T22:37:07.544-0300 I CONTROL  [initandlisten] options: { storage: { dbPath: "mongo-data" }, systemLog: { destination: "file", path: "mongo-data/mongo.log" } }
+2021-02-15T22:37:07.551-0300 I -        [initandlisten] Detected data files in mongo-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2021-02-15T22:37:07.555-0300 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=5855M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2021-02-15T22:37:15.943-0300 I STORAGE  [initandlisten] WiredTiger message [1613439435:943067][1223:0x7f30c5462ac0], txn-recover: Main recovery loop: starting at 2/5376
+2021-02-15T22:37:17.367-0300 I STORAGE  [initandlisten] WiredTiger message [1613439437:367309][1223:0x7f30c5462ac0], txn-recover: Recovering log 2 through 3
+2021-02-15T22:37:18.105-0300 I STORAGE  [initandlisten] WiredTiger message [1613439438:105131][1223:0x7f30c5462ac0], txn-recover: Recovering log 3 through 3
+2021-02-15T22:37:18.824-0300 I STORAGE  [initandlisten] WiredTiger message [1613439438:824740][1223:0x7f30c5462ac0], txn-recover: Set global recovery timestamp: 0
+2021-02-15T22:37:18.910-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:37:18.910-0300 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2021-02-15T22:37:18.910-0300 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2021-02-15T22:37:18.911-0300 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2021-02-15T22:37:18.911-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:37:18.911-0300 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2021-02-15T22:37:18.911-0300 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2021-02-15T22:37:18.911-0300 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2021-02-15T22:37:18.911-0300 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2021-02-15T22:37:18.912-0300 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2021-02-15T22:37:18.912-0300 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2021-02-15T22:37:18.912-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:37:18.912-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:37:18.912-0300 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2021-02-15T22:37:18.913-0300 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2021-02-15T22:37:18.913-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:37:18.948-0300 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongo-data/diagnostic.data'
+2021-02-15T22:37:18.949-0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2021-02-15T22:37:19.474-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53094 #1 (1 connection now open)
+2021-02-15T22:37:19.481-0300 I NETWORK  [conn1] received client metadata from 127.0.0.1:53094 conn1: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:37:19.592-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53096 #2 (2 connections now open)
+2021-02-15T22:37:19.596-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53098 #3 (3 connections now open)
+2021-02-15T22:37:19.596-0300 I NETWORK  [conn2] received client metadata from 127.0.0.1:53096 conn2: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:37:19.596-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53100 #4 (4 connections now open)
+2021-02-15T22:37:19.596-0300 I NETWORK  [conn3] received client metadata from 127.0.0.1:53098 conn3: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:37:19.598-0300 I NETWORK  [conn4] received client metadata from 127.0.0.1:53100 conn4: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:37:19.598-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53102 #5 (5 connections now open)
+2021-02-15T22:37:19.600-0300 I NETWORK  [conn5] received client metadata from 127.0.0.1:53102 conn5: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:37:19.639-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53104 #6 (6 connections now open)
+2021-02-15T22:37:19.641-0300 I NETWORK  [conn6] received client metadata from 127.0.0.1:53104 conn6: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:37:28.237-0300 I NETWORK  [conn5] end connection 127.0.0.1:53102 (5 connections now open)
+2021-02-15T22:37:28.237-0300 I NETWORK  [conn2] end connection 127.0.0.1:53096 (4 connections now open)
+2021-02-15T22:37:28.237-0300 I NETWORK  [conn3] end connection 127.0.0.1:53098 (3 connections now open)
+2021-02-15T22:37:28.237-0300 I NETWORK  [conn4] end connection 127.0.0.1:53100 (2 connections now open)
+2021-02-15T22:37:28.238-0300 I NETWORK  [conn6] end connection 127.0.0.1:53104 (1 connection now open)
+2021-02-15T22:37:28.238-0300 I NETWORK  [conn1] end connection 127.0.0.1:53094 (0 connections now open)
+2021-02-15T22:37:31.278-0300 I CONTROL  [signalProcessingThread] got signal 2 (Interrupt), will terminate after current cmd ends
+2021-02-15T22:37:31.279-0300 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2021-02-15T22:37:31.279-0300 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2021-02-15T22:37:31.280-0300 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2021-02-15T22:37:31.306-0300 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2021-02-15T22:37:31.931-0300 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2021-02-15T22:37:31.933-0300 I CONTROL  [signalProcessingThread] now exiting
+2021-02-15T22:37:31.933-0300 I CONTROL  [signalProcessingThread] shutting down with code:0

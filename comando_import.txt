@@ -1,0 +1,2 @@
+mongoimport --db query --collection pokemon --type json --file pokemon.json
+

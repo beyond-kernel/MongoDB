@@ -1,0 +1,125 @@
+2021-02-15T22:38:21.580-0300 I CONTROL  [initandlisten] MongoDB starting : pid=1257 port=27017 dbpath=mongo-data 64-bit host=DESKTOP-I3BT1R2
+2021-02-15T22:38:21.581-0300 I CONTROL  [initandlisten] db version v3.6.8
+2021-02-15T22:38:21.581-0300 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2021-02-15T22:38:21.581-0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2021-02-15T22:38:21.582-0300 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-02-15T22:38:21.582-0300 I CONTROL  [initandlisten] modules: none
+2021-02-15T22:38:21.582-0300 I CONTROL  [initandlisten] build environment:
+2021-02-15T22:38:21.582-0300 I CONTROL  [initandlisten]     distarch: x86_64
+2021-02-15T22:38:21.582-0300 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-02-15T22:38:21.583-0300 I CONTROL  [initandlisten] options: { storage: { dbPath: "mongo-data" }, systemLog: { destination: "file", path: "mongo-data/mongo.log" } }
+2021-02-15T22:38:21.597-0300 I -        [initandlisten] Detected data files in mongo-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2021-02-15T22:38:21.603-0300 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=5855M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2021-02-15T22:38:31.426-0300 I STORAGE  [initandlisten] WiredTiger message [1613439511:426154][1257:0x7f8a9548eac0], txn-recover: Main recovery loop: starting at 3/5376
+2021-02-15T22:38:32.611-0300 I STORAGE  [initandlisten] WiredTiger message [1613439512:611673][1257:0x7f8a9548eac0], txn-recover: Recovering log 3 through 4
+2021-02-15T22:38:33.263-0300 I STORAGE  [initandlisten] WiredTiger message [1613439513:263081][1257:0x7f8a9548eac0], txn-recover: Recovering log 4 through 4
+2021-02-15T22:38:33.909-0300 I STORAGE  [initandlisten] WiredTiger message [1613439513:909214][1257:0x7f8a9548eac0], txn-recover: Set global recovery timestamp: 0
+2021-02-15T22:38:34.065-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:38:34.065-0300 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2021-02-15T22:38:34.065-0300 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2021-02-15T22:38:34.066-0300 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2021-02-15T22:38:34.066-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:38:34.066-0300 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2021-02-15T22:38:34.066-0300 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2021-02-15T22:38:34.067-0300 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2021-02-15T22:38:34.069-0300 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2021-02-15T22:38:34.070-0300 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2021-02-15T22:38:34.071-0300 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2021-02-15T22:38:34.072-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:38:34.073-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:38:34.074-0300 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2021-02-15T22:38:34.074-0300 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2021-02-15T22:38:34.074-0300 I CONTROL  [initandlisten] 
+2021-02-15T22:38:34.158-0300 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongo-data/diagnostic.data'
+2021-02-15T22:38:34.159-0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2021-02-15T22:38:53.634-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53106 #1 (1 connection now open)
+2021-02-15T22:38:53.640-0300 I NETWORK  [conn1] received client metadata from 127.0.0.1:53106 conn1: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:38:53.738-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53108 #2 (2 connections now open)
+2021-02-15T22:38:53.741-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53110 #3 (3 connections now open)
+2021-02-15T22:38:53.741-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53112 #4 (4 connections now open)
+2021-02-15T22:38:53.743-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53114 #5 (5 connections now open)
+2021-02-15T22:38:53.768-0300 I NETWORK  [conn2] received client metadata from 127.0.0.1:53108 conn2: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:38:53.769-0300 I NETWORK  [conn3] received client metadata from 127.0.0.1:53110 conn3: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:38:53.769-0300 I NETWORK  [conn4] received client metadata from 127.0.0.1:53112 conn4: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:38:53.770-0300 I NETWORK  [conn5] received client metadata from 127.0.0.1:53114 conn5: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:38:57.501-0300 I NETWORK  [conn1] end connection 127.0.0.1:53106 (4 connections now open)
+2021-02-15T22:38:57.503-0300 I NETWORK  [conn2] end connection 127.0.0.1:53108 (3 connections now open)
+2021-02-15T22:38:57.503-0300 I NETWORK  [conn3] end connection 127.0.0.1:53110 (2 connections now open)
+2021-02-15T22:38:57.503-0300 I NETWORK  [conn5] end connection 127.0.0.1:53114 (1 connection now open)
+2021-02-15T22:38:57.521-0300 I NETWORK  [conn4] end connection 127.0.0.1:53112 (0 connections now open)
+2021-02-15T22:38:59.946-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53116 #6 (1 connection now open)
+2021-02-15T22:38:59.949-0300 I NETWORK  [conn6] received client metadata from 127.0.0.1:53116 conn6: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:38:59.993-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53120 #7 (2 connections now open)
+2021-02-15T22:38:59.996-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53118 #8 (3 connections now open)
+2021-02-15T22:38:59.997-0300 I NETWORK  [conn7] received client metadata from 127.0.0.1:53120 conn7: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:38:59.998-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53124 #9 (4 connections now open)
+2021-02-15T22:38:59.998-0300 I NETWORK  [conn8] received client metadata from 127.0.0.1:53118 conn8: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:38:59.999-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53126 #10 (5 connections now open)
+2021-02-15T22:38:59.999-0300 I NETWORK  [conn9] received client metadata from 127.0.0.1:53124 conn9: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:39:00.000-0300 I NETWORK  [conn10] received client metadata from 127.0.0.1:53126 conn10: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:39:00.006-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53128 #11 (6 connections now open)
+2021-02-15T22:39:00.009-0300 I NETWORK  [conn11] received client metadata from 127.0.0.1:53128 conn11: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:39:05.310-0300 I NETWORK  [conn6] end connection 127.0.0.1:53116 (5 connections now open)
+2021-02-15T22:39:05.310-0300 I NETWORK  [conn11] end connection 127.0.0.1:53128 (2 connections now open)
+2021-02-15T22:39:05.310-0300 I NETWORK  [conn10] end connection 127.0.0.1:53126 (3 connections now open)
+2021-02-15T22:39:05.310-0300 I NETWORK  [conn8] end connection 127.0.0.1:53118 (1 connection now open)
+2021-02-15T22:39:05.310-0300 I NETWORK  [conn7] end connection 127.0.0.1:53120 (4 connections now open)
+2021-02-15T22:39:05.324-0300 I NETWORK  [conn9] end connection 127.0.0.1:53124 (0 connections now open)
+2021-02-15T22:39:08.567-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53130 #12 (1 connection now open)
+2021-02-15T22:39:08.570-0300 I NETWORK  [conn12] received client metadata from 127.0.0.1:53130 conn12: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:39:08.607-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53132 #13 (2 connections now open)
+2021-02-15T22:39:08.611-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53134 #14 (3 connections now open)
+2021-02-15T22:39:08.611-0300 I NETWORK  [conn13] received client metadata from 127.0.0.1:53132 conn13: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:39:08.612-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53136 #15 (4 connections now open)
+2021-02-15T22:39:08.612-0300 I NETWORK  [conn14] received client metadata from 127.0.0.1:53134 conn14: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:39:08.613-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:53138 #16 (5 connections now open)
+2021-02-15T22:39:08.613-0300 I NETWORK  [conn15] received client metadata from 127.0.0.1:53136 conn15: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:39:08.614-0300 I NETWORK  [conn16] received client metadata from 127.0.0.1:53138 conn16: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-02-15T22:39:11.029-0300 I NETWORK  [conn12] end connection 127.0.0.1:53130 (4 connections now open)
+2021-02-15T22:39:11.029-0300 I NETWORK  [conn14] end connection 127.0.0.1:53134 (3 connections now open)
+2021-02-15T22:39:11.030-0300 I NETWORK  [conn15] end connection 127.0.0.1:53136 (2 connections now open)
+2021-02-15T22:39:11.033-0300 I NETWORK  [conn13] end connection 127.0.0.1:53132 (1 connection now open)
+2021-02-15T22:39:11.035-0300 I NETWORK  [conn16] end connection 127.0.0.1:53138 (0 connections now open)
+2021-02-15T22:39:33.991-0300 E STORAGE  [WTCheckpointThread] WiredTiger error (22) [1613439573:991532][1257:0x7f8a8fc7d700], file:WiredTiger.wt, WT_SESSION.checkpoint: live.alloc: merge range 4096-8192 overlaps with existing range 4096-8192: Invalid argument
+2021-02-15T22:39:33.991-0300 E STORAGE  [WTCheckpointThread] WiredTiger error (-31804) [1613439573:991716][1257:0x7f8a8fc7d700], file:WiredTiger.wt, WT_SESSION.checkpoint: the process must exit and restart: WT_PANIC: WiredTiger library panic
+2021-02-15T22:39:33.991-0300 F -        [WTCheckpointThread] Fatal Assertion 28558 at src/mongo/db/storage/wiredtiger/wiredtiger_util.cpp 366
+2021-02-15T22:39:33.992-0300 F -        [WTCheckpointThread] 
+
+***aborting after fassert() failure
+
+
+2021-02-15T22:39:34.001-0300 F -        [WTCheckpointThread] Got signal: 6 (Aborted).
+
+ 0x5622d6d8901e 0x5622d6d8890f 0x5622d6d889ac 0x7f8a957533c0 0x7f8a9559218b 0x7f8a95571859 0x5622d54f4c55 0x5622d529c8ee 0x5622d5631089 0x5622d52a6ec8 0x5622d52a7228 0x5622d52b443e 0x5622d56fa09e 0x5622d56f7d87 0x5622d5658ac3 0x5622d560a8bf 0x5622d561458b 0x5622d5675c6b 0x5622d5640f70 0x5622d5642807 0x5622d5643ff4 0x5622d5644347 0x5622d52a65ef 0x5622d55ab3c4 0x5622d6cb703b 0x7f8a959a1cb4 0x7f8a95747609 0x7f8a9566e103
+----- BEGIN BACKTRACE -----
+{"backtrace":[{"b":"5622D4A7E000","o":"230B01E","s":"_ZN5mongo15printStackTraceERSo"},{"b":"5622D4A7E000","o":"230A90F"},{"b":"5622D4A7E000","o":"230A9AC"},{"b":"7F8A9573E000","o":"153C0"},{"b":"7F8A9554C000","o":"4618B","s":"gsignal"},{"b":"7F8A9554C000","o":"25859","s":"abort"},{"b":"5622D4A7E000","o":"A76C55","s":"_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj"},{"b":"5622D4A7E000","o":"81E8EE"},{"b":"5622D4A7E000","o":"BB3089"},{"b":"5622D4A7E000","o":"828EC8","s":"__wt_err"},{"b":"5622D4A7E000","o":"829228","s":"__wt_panic"},{"b":"5622D4A7E000","o":"83643E"},{"b":"5622D4A7E000","o":"C7C09E","s":"__wt_block_extlist_merge"},{"b":"5622D4A7E000","o":"C79D87","s":"__wt_block_checkpoint"},{"b":"5622D4A7E000","o":"BDAAC3","s":"__wt_bt_write"},{"b":"5622D4A7E000","o":"B8C8BF"},{"b":"5622D4A7E000","o":"B9658B","s":"__wt_reconcile"},{"b":"5622D4A7E000","o":"BF7C6B","s":"__wt_cache_op"},{"b":"5622D4A7E000","o":"BC2F70"},{"b":"5622D4A7E000","o":"BC4807","s":"__wt_checkpoint"},{"b":"5622D4A7E000","o":"BC5FF4"},{"b":"5622D4A7E000","o":"BC6347","s":"__wt_txn_checkpoint"},{"b":"5622D4A7E000","o":"8285EF"},{"b":"5622D4A7E000","o":"B2D3C4","s":"_ZN5mongo18WiredTigerKVEngine26WiredTigerCheckpointThread3runEv"},{"b":"5622D4A7E000","o":"223903B","s":"_ZN5mongo13BackgroundJob7jobBodyEv"},{"b":"7F8A958CB000","o":"D6CB4"},{"b":"7F8A9573E000","o":"9609"},{"b":"7F8A9554C000","o":"122103","s":"clone"}],"processInfo":{ "mongodbVersion" : "3.6.8", "gitVersion" : "8e540c0b6db93ce994cc548f000900bdc740f80a", "compiledModules" : [], "uname" : { "sysname" : "Linux", "release" : "5.4.72-microsoft-standard-WSL2", "version" : "#1 SMP Wed Oct 28 23:40:43 UTC 2020", "machine" : "x86_64" }, "somap" : [ { "b" : "5622D4A7E000", "elfType" : 3, "buildId" : "060194AE9AEEF88E6F109520AE16DEC315715B58" }, { "b" : "7FFE8CFF7000", "path" : "linux-vdso.so.1", "elfType" : 3, "buildId" : "10D52F0F47C56EB14391D3BC5823A4CF1BFC83A8" }, { "b" : "7F8A9616C000", "path" : "/lib/x86_64-linux-gnu/libstemmer.so.0d", "elfType" : 3, "buildId" : "F129B7D409F6F63A822673139BE40F369F3E4B13" }, { "b" : "7F8A96150000", "path" : "/lib/x86_64-linux-gnu/libz.so.1", "elfType" : 3, "buildId" : "7D82F4D9B434B4E0796A3BC37E1557CC2760F281" }, { "b" : "7F8A96145000", "path" : "/lib/x86_64-linux-gnu/libsnappy.so.1", "elfType" : 3, "buildId" : "74CAFD320059B4D17CF89FD6379A5105FF55840F" }, { "b" : "7F8A960EA000", "path" : "/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6", "elfType" : 3, "buildId" : "B9EC1711A8AAD2FE980B735F13E186BEFE9FA4DB" }, { "b" : "7F8A960DF000", "path" : "/lib/x86_64-linux-gnu/libpcrecpp.so.0", "elfType" : 3, "buildId" : "90A529AE5D50FADDD9CC20E87A71C65613B3C28F" }, { "b" : "7F8A96050000", "path" : "/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0", "elfType" : 3, "buildId" : "CB2EB21D65AF49F187F384ABED5D46D66E998195" }, { "b" : "7F8A96030000", "path" : "/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0", "elfType" : 3, "buildId" : "956195B5ABA44A072A6242BF2399D9EB0B6163E7" }, { "b" : "7F8A95E39000", "path" : "/lib/x86_64-linux-gnu/libtcmalloc.so.4", "elfType" : 3, "buildId" : "BC036BA2C0C0B4976A51184F1E9F712CCB8611C7" }, { "b" : "7F8A95E1D000", "path" : "/lib/x86_64-linux-gnu/libresolv.so.2", "elfType" : 3, "buildId" : "AC180C1373535A4C841CFE61D582502461E6D4CD" }, { "b" : "7F8A95B47000", "path" : "/lib/x86_64-linux-gnu/libcrypto.so.1.1", "elfType" : 3, "buildId" : "D81502AE4775AED5087116CA8508B8125576C25A" }, { "b" : "7F8A95AB4000", "path" : "/lib/x86_64-linux-gnu/libssl.so.1.1", "elfType" : 3, "buildId" : "A162780831ABEBAEDF9B84935CC92230DC02F326" }, { "b" : "7F8A95AAE000", "path" : "/lib/x86_64-linux-gnu/libdl.so.2", "elfType" : 3, "buildId" : "4D6D96CD2732B33AD6647F361DCC14A3F41D324C" }, { "b" : "7F8A958CB000", "path" : "/lib/x86_64-linux-gnu/libstdc++.so.6", "elfType" : 3, "buildId" : "48F1A714F64AC85CAA1496BCB14275C8FF0AEACE" }, { "b" : "7F8A9577C000", "path" : "/lib/x86_64-linux-gnu/libm.so.6", "elfType" : 3, "buildId" : "61775381505C37A3D1579A2EFB71B14707E7F980" }, { "b" : "7F8A95761000", "path" : "/lib/x86_64-linux-gnu/libgcc_s.so.1", "elfType" : 3, "buildId" : "B94360F872FFC6A12674E7D561C524C20B5E5EBE" }, { "b" : "7F8A9573E000", "path" : "/lib/x86_64-linux-gnu/libpthread.so.0", "elfType" : 3, "buildId" : "775CBBFFF814456660786780B0B3B40096B4C05E" }, { "b" : "7F8A9554C000", "path" : "/lib/x86_64-linux-gnu/libc.so.6", "elfType" : 3, "buildId" : "634252E0C5F8B03957A2E529719D4101699A894A" }, { "b" : "7F8A954D9000", "path" : "/lib/x86_64-linux-gnu/libpcre.so.3", "elfType" : 3, "buildId" : "AC83711FBCB2725AD376CA8F8C947F6A782E7A65" }, { "b" : "7F8A954BA000", "path" : "/lib/x86_64-linux-gnu/libunwind.so.8", "elfType" : 3, "buildId" : "E4502D71B7D21D13E84436FAF0BD4A8FF63874C2" }, { "b" : "7F8A961CF000", "path" : "/lib64/ld-linux-x86-64.so.2", "elfType" : 3, "buildId" : "7B59278CE4F4CBB47AFDDABE1E757A74927922B9" }, { "b" : "7F8A95493000", "path" : "/lib/x86_64-linux-gnu/liblzma.so.5", "elfType" : 3, "buildId" : "A2D8E4118C7995F9BCFF9984E1B2C9A8F3D4D976" } ] }}
+ mongod(_ZN5mongo15printStackTraceERSo+0x3E) [0x5622d6d8901e]
+ mongod(+0x230A90F) [0x5622d6d8890f]
+ mongod(+0x230A9AC) [0x5622d6d889ac]
+ libpthread.so.0(+0x153C0) [0x7f8a957533c0]
+ libc.so.6(gsignal+0xCB) [0x7f8a9559218b]
+ libc.so.6(abort+0x12B) [0x7f8a95571859]
+ mongod(_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj+0x0) [0x5622d54f4c55]
+ mongod(+0x81E8EE) [0x5622d529c8ee]
+ mongod(+0xBB3089) [0x5622d5631089]
+ mongod(__wt_err+0xA5) [0x5622d52a6ec8]
+ mongod(__wt_panic+0x38) [0x5622d52a7228]
+ mongod(+0x83643E) [0x5622d52b443e]
+ mongod(__wt_block_extlist_merge+0x7E) [0x5622d56fa09e]
+ mongod(__wt_block_checkpoint+0x647) [0x5622d56f7d87]
+ mongod(__wt_bt_write+0x383) [0x5622d5658ac3]
+ mongod(+0xB8C8BF) [0x5622d560a8bf]
+ mongod(__wt_reconcile+0xA6B) [0x5622d561458b]
+ mongod(__wt_cache_op+0x6BB) [0x5622d5675c6b]
+ mongod(+0xBC2F70) [0x5622d5640f70]
+ mongod(__wt_checkpoint+0xA7) [0x5622d5642807]
+ mongod(+0xBC5FF4) [0x5622d5643ff4]
+ mongod(__wt_txn_checkpoint+0x217) [0x5622d5644347]
+ mongod(+0x8285EF) [0x5622d52a65ef]
+ mongod(_ZN5mongo18WiredTigerKVEngine26WiredTigerCheckpointThread3runEv+0x244) [0x5622d55ab3c4]
+ mongod(_ZN5mongo13BackgroundJob7jobBodyEv+0xAB) [0x5622d6cb703b]
+ libstdc++.so.6(+0xD6CB4) [0x7f8a959a1cb4]
+ libpthread.so.0(+0x9609) [0x7f8a95747609]
+ libc.so.6(clone+0x43) [0x7f8a9566e103]
+-----  END BACKTRACE  -----
+2021-02-15T22:39:34.001-0300 F -        [ftdc] Fatal Assertion 28559 at src/mongo/db/storage/wiredtiger/wiredtiger_util.cpp 64
