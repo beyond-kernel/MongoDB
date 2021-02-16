@@ -34,3 +34,5 @@
 2021-02-16T11:39:04.141-0300 I CONTROL  [initandlisten] 
 2021-02-16T11:39:04.250-0300 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data/diagnostic.data'
 2021-02-16T11:39:04.250-0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2021-02-16T11:40:06.988-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:38208 #1 (1 connection now open)
+2021-02-16T11:40:06.992-0300 I NETWORK  [conn1] received client metadata from 127.0.0.1:38208 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
