@@ -13,3 +13,5 @@ db.pokemon.find({attack: {$gt: 85 } }, {name: 1, attack: 1, _id: 0}) //$gt opera
 db.pokemon.find({attack: {$lt: 85 } }, {name: 1, attack: 1, _id: 0}) //$lt operador de comparacao menor que para valores numericos
 db.pokemon.find({ types: {$in :["Fire", "Flying"] }  }, { types: 1,name: 1, _id: 0}) //$in operador que retorna qualquer valor que bata com os valores passados 
 db.pokemon.find({ types: {$nin :["Fire", "Flying"] }  }, { types: 1,name: 1, _id: 0}) //$nin operador que retorna qualquer valor que NAO bata com os valores passados 
+db.pokemon.find({ defense: { $gt: 60, $lte: 72  }  }, { name: 1, defense: 1, _id: 0}) //combinando operadores maior que e menor e igual que bata com valores passados
+db.pokemon.find({ $or: [{defense: { $gt: 60, $lte: 72  }}, {defense: 100}]  }, { name: 1, defense: 1, _id: 0})  //combinando operadores com "ou" maior que e menor e igual que com ou que bata exatamente com valores passados
