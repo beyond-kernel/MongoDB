@@ -1,0 +1,268 @@
+2021-02-25T19:17:24.777-0300 I CONTROL  [initandlisten] MongoDB starting : pid=163 port=27017 dbpath=/mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data 64-bit host=DESKTOP-I3BT1R2
+2021-02-25T19:17:24.778-0300 I CONTROL  [initandlisten] db version v3.6.8
+2021-02-25T19:17:24.778-0300 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2021-02-25T19:17:24.778-0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2021-02-25T19:17:24.778-0300 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-02-25T19:17:24.778-0300 I CONTROL  [initandlisten] modules: none
+2021-02-25T19:17:24.779-0300 I CONTROL  [initandlisten] build environment:
+2021-02-25T19:17:24.779-0300 I CONTROL  [initandlisten]     distarch: x86_64
+2021-02-25T19:17:24.779-0300 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-02-25T19:17:24.779-0300 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "mongo-data" }, systemLog: { destination: "file", path: "mongo-data/mongo.log" } }
+2021-02-25T19:17:24.782-0300 W -        [initandlisten] Detected unclean shutdown - /mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data/mongod.lock is not empty.
+2021-02-25T19:17:24.793-0300 I -        [initandlisten] Detected data files in /mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2021-02-25T19:17:24.797-0300 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2021-02-25T19:17:24.798-0300 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=5855M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2021-02-25T19:17:35.579-0300 I STORAGE  [initandlisten] WiredTiger message [1614291455:579194][163:0x7fba2c498ac0], txn-recover: Main recovery loop: starting at 19/35712
+2021-02-25T19:17:35.585-0300 I STORAGE  [initandlisten] WiredTiger message [1614291455:585141][163:0x7fba2c498ac0], txn-recover: Recovering log 19 through 20
+2021-02-25T19:17:36.255-0300 I STORAGE  [initandlisten] WiredTiger message [1614291456:255355][163:0x7fba2c498ac0], txn-recover: Recovering log 20 through 20
+2021-02-25T19:17:36.905-0300 I STORAGE  [initandlisten] WiredTiger message [1614291456:905291][163:0x7fba2c498ac0], txn-recover: Set global recovery timestamp: 0
+2021-02-25T19:17:37.172-0300 I CONTROL  [initandlisten] 
+2021-02-25T19:17:37.172-0300 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2021-02-25T19:17:37.172-0300 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2021-02-25T19:17:37.172-0300 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2021-02-25T19:17:37.173-0300 I CONTROL  [initandlisten] 
+2021-02-25T19:17:37.173-0300 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2021-02-25T19:17:37.173-0300 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2021-02-25T19:17:37.174-0300 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2021-02-25T19:17:37.174-0300 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2021-02-25T19:17:37.174-0300 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2021-02-25T19:17:37.176-0300 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2021-02-25T19:17:37.176-0300 I CONTROL  [initandlisten] 
+2021-02-25T19:17:37.176-0300 I CONTROL  [initandlisten] 
+2021-02-25T19:17:37.176-0300 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2021-02-25T19:17:37.177-0300 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2021-02-25T19:17:37.177-0300 I CONTROL  [initandlisten] 
+2021-02-25T19:17:37.260-0300 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data/diagnostic.data'
+2021-02-25T19:17:37.261-0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2021-02-25T19:17:38.054-0300 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2021-02-25T19:17:42.000-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50632 #1 (1 connection now open)
+2021-02-25T19:17:42.033-0300 I NETWORK  [conn1] received client metadata from 127.0.0.1:50632 conn1: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T19:17:45.106-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50634 #2 (2 connections now open)
+2021-02-25T19:17:45.108-0300 I NETWORK  [conn2] received client metadata from 127.0.0.1:50634 conn2: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T19:17:56.153-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50636 #3 (3 connections now open)
+2021-02-25T19:17:56.157-0300 I NETWORK  [conn3] received client metadata from 127.0.0.1:50636 conn3: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T19:18:49.429-0300 I NETWORK  [conn3] end connection 127.0.0.1:50636 (2 connections now open)
+2021-02-25T19:18:49.432-0300 I NETWORK  [conn1] end connection 127.0.0.1:50632 (1 connection now open)
+2021-02-25T19:18:49.432-0300 I NETWORK  [conn2] end connection 127.0.0.1:50634 (0 connections now open)
+2021-02-25T19:22:37.699-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50638 #4 (1 connection now open)
+2021-02-25T19:22:37.707-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50640 #5 (2 connections now open)
+2021-02-25T19:22:37.745-0300 I NETWORK  [conn4] received client metadata from 127.0.0.1:50638 conn4: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T19:22:37.745-0300 I NETWORK  [conn5] received client metadata from 127.0.0.1:50640 conn5: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T19:22:38.412-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50642 #6 (3 connections now open)
+2021-02-25T19:22:38.415-0300 I NETWORK  [conn6] received client metadata from 127.0.0.1:50642 conn6: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T19:22:57.581-0300 I NETWORK  [conn5] end connection 127.0.0.1:50640 (2 connections now open)
+2021-02-25T19:22:57.581-0300 I NETWORK  [conn4] end connection 127.0.0.1:50638 (1 connection now open)
+2021-02-25T19:22:57.581-0300 I NETWORK  [conn6] end connection 127.0.0.1:50642 (0 connections now open)
+2021-02-25T20:06:19.810-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50644 #7 (1 connection now open)
+2021-02-25T20:06:19.813-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50646 #8 (2 connections now open)
+2021-02-25T20:06:19.855-0300 I NETWORK  [conn8] received client metadata from 127.0.0.1:50646 conn8: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:06:19.855-0300 I NETWORK  [conn7] received client metadata from 127.0.0.1:50644 conn7: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:06:20.400-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50648 #9 (3 connections now open)
+2021-02-25T20:06:20.402-0300 I NETWORK  [conn9] received client metadata from 127.0.0.1:50648 conn9: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:06:46.792-0300 I NETWORK  [conn7] end connection 127.0.0.1:50644 (2 connections now open)
+2021-02-25T20:06:46.792-0300 I NETWORK  [conn9] end connection 127.0.0.1:50648 (1 connection now open)
+2021-02-25T20:06:46.792-0300 I NETWORK  [conn8] end connection 127.0.0.1:50646 (0 connections now open)
+2021-02-25T20:24:54.674-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50650 #10 (1 connection now open)
+2021-02-25T20:24:54.675-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50652 #11 (2 connections now open)
+2021-02-25T20:24:54.714-0300 I NETWORK  [conn10] received client metadata from 127.0.0.1:50650 conn10: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:24:54.714-0300 I NETWORK  [conn11] received client metadata from 127.0.0.1:50652 conn11: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:24:54.805-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50654 #12 (3 connections now open)
+2021-02-25T20:24:54.807-0300 I NETWORK  [conn12] received client metadata from 127.0.0.1:50654 conn12: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:28:33.223-0300 I NETWORK  [conn10] end connection 127.0.0.1:50650 (1 connection now open)
+2021-02-25T20:28:33.223-0300 I NETWORK  [conn11] end connection 127.0.0.1:50652 (2 connections now open)
+2021-02-25T20:28:33.223-0300 I NETWORK  [conn12] end connection 127.0.0.1:50654 (0 connections now open)
+2021-02-25T20:31:23.186-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50656 #13 (1 connection now open)
+2021-02-25T20:31:23.189-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50658 #14 (2 connections now open)
+2021-02-25T20:31:23.225-0300 I NETWORK  [conn14] received client metadata from 127.0.0.1:50658 conn14: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:31:23.225-0300 I NETWORK  [conn13] received client metadata from 127.0.0.1:50656 conn13: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:31:23.316-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50660 #15 (3 connections now open)
+2021-02-25T20:31:23.319-0300 I NETWORK  [conn15] received client metadata from 127.0.0.1:50660 conn15: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:32:15.582-0300 I NETWORK  [conn13] end connection 127.0.0.1:50656 (2 connections now open)
+2021-02-25T20:32:15.582-0300 I NETWORK  [conn14] end connection 127.0.0.1:50658 (1 connection now open)
+2021-02-25T20:32:15.582-0300 I NETWORK  [conn15] end connection 127.0.0.1:50660 (0 connections now open)
+2021-02-25T20:33:05.223-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50662 #16 (1 connection now open)
+2021-02-25T20:33:05.226-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50664 #17 (2 connections now open)
+2021-02-25T20:33:05.262-0300 I NETWORK  [conn17] received client metadata from 127.0.0.1:50664 conn17: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:33:05.262-0300 I NETWORK  [conn16] received client metadata from 127.0.0.1:50662 conn16: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:33:05.351-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50666 #18 (3 connections now open)
+2021-02-25T20:33:05.353-0300 I NETWORK  [conn18] received client metadata from 127.0.0.1:50666 conn18: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:34:01.328-0300 I NETWORK  [conn16] end connection 127.0.0.1:50662 (2 connections now open)
+2021-02-25T20:34:01.328-0300 I NETWORK  [conn17] end connection 127.0.0.1:50664 (1 connection now open)
+2021-02-25T20:34:01.328-0300 I NETWORK  [conn18] end connection 127.0.0.1:50666 (0 connections now open)
+2021-02-25T20:34:41.125-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50668 #19 (1 connection now open)
+2021-02-25T20:34:41.128-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50670 #20 (2 connections now open)
+2021-02-25T20:34:41.160-0300 I NETWORK  [conn20] received client metadata from 127.0.0.1:50670 conn20: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:34:41.160-0300 I NETWORK  [conn19] received client metadata from 127.0.0.1:50668 conn19: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:34:41.240-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50672 #21 (3 connections now open)
+2021-02-25T20:34:41.242-0300 I NETWORK  [conn21] received client metadata from 127.0.0.1:50672 conn21: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:36:21.918-0300 I NETWORK  [conn19] end connection 127.0.0.1:50668 (2 connections now open)
+2021-02-25T20:36:21.918-0300 I NETWORK  [conn21] end connection 127.0.0.1:50672 (1 connection now open)
+2021-02-25T20:36:21.918-0300 I NETWORK  [conn20] end connection 127.0.0.1:50670 (0 connections now open)
+2021-02-25T20:50:57.366-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50674 #22 (1 connection now open)
+2021-02-25T20:50:57.369-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50676 #23 (2 connections now open)
+2021-02-25T20:50:57.400-0300 I NETWORK  [conn22] received client metadata from 127.0.0.1:50674 conn22: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:50:57.400-0300 I NETWORK  [conn23] received client metadata from 127.0.0.1:50676 conn23: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:50:57.491-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50678 #24 (3 connections now open)
+2021-02-25T20:50:57.493-0300 I NETWORK  [conn24] received client metadata from 127.0.0.1:50678 conn24: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T20:51:23.663-0300 I NETWORK  [conn22] end connection 127.0.0.1:50674 (2 connections now open)
+2021-02-25T20:51:23.663-0300 I NETWORK  [conn23] end connection 127.0.0.1:50676 (1 connection now open)
+2021-02-25T20:51:23.663-0300 I NETWORK  [conn24] end connection 127.0.0.1:50678 (0 connections now open)
+2021-02-25T21:05:38.407-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50680 #25 (1 connection now open)
+2021-02-25T21:05:38.410-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50682 #26 (2 connections now open)
+2021-02-25T21:05:38.444-0300 I NETWORK  [conn25] received client metadata from 127.0.0.1:50680 conn25: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:05:38.444-0300 I NETWORK  [conn26] received client metadata from 127.0.0.1:50682 conn26: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:05:38.536-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50684 #27 (3 connections now open)
+2021-02-25T21:05:38.538-0300 I NETWORK  [conn27] received client metadata from 127.0.0.1:50684 conn27: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:06:22.092-0300 I NETWORK  [conn26] end connection 127.0.0.1:50682 (2 connections now open)
+2021-02-25T21:06:22.092-0300 I NETWORK  [conn27] end connection 127.0.0.1:50684 (1 connection now open)
+2021-02-25T21:06:22.092-0300 I NETWORK  [conn25] end connection 127.0.0.1:50680 (0 connections now open)
+2021-02-25T21:07:03.230-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50686 #28 (1 connection now open)
+2021-02-25T21:07:03.232-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50688 #29 (2 connections now open)
+2021-02-25T21:07:03.267-0300 I NETWORK  [conn29] received client metadata from 127.0.0.1:50688 conn29: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:07:03.267-0300 I NETWORK  [conn28] received client metadata from 127.0.0.1:50686 conn28: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:07:03.373-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50690 #30 (3 connections now open)
+2021-02-25T21:07:03.377-0300 I NETWORK  [conn30] received client metadata from 127.0.0.1:50690 conn30: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:07:08.051-0300 I NETWORK  [conn29] end connection 127.0.0.1:50688 (2 connections now open)
+2021-02-25T21:07:08.051-0300 I NETWORK  [conn28] end connection 127.0.0.1:50686 (1 connection now open)
+2021-02-25T21:07:08.051-0300 I NETWORK  [conn30] end connection 127.0.0.1:50690 (0 connections now open)
+2021-02-25T21:15:12.626-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50692 #31 (1 connection now open)
+2021-02-25T21:15:12.629-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50694 #32 (2 connections now open)
+2021-02-25T21:15:12.663-0300 I NETWORK  [conn31] received client metadata from 127.0.0.1:50692 conn31: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:15:12.663-0300 I NETWORK  [conn32] received client metadata from 127.0.0.1:50694 conn32: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:15:12.777-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50696 #33 (3 connections now open)
+2021-02-25T21:15:12.779-0300 I NETWORK  [conn33] received client metadata from 127.0.0.1:50696 conn33: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:15:49.846-0300 I NETWORK  [conn32] end connection 127.0.0.1:50694 (2 connections now open)
+2021-02-25T21:15:49.846-0300 I NETWORK  [conn31] end connection 127.0.0.1:50692 (1 connection now open)
+2021-02-25T21:15:49.846-0300 I NETWORK  [conn33] end connection 127.0.0.1:50696 (0 connections now open)
+2021-02-25T21:20:29.376-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50698 #34 (1 connection now open)
+2021-02-25T21:20:29.391-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50700 #35 (2 connections now open)
+2021-02-25T21:20:29.418-0300 I NETWORK  [conn34] received client metadata from 127.0.0.1:50698 conn34: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:20:29.418-0300 I NETWORK  [conn35] received client metadata from 127.0.0.1:50700 conn35: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:20:29.982-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50702 #36 (3 connections now open)
+2021-02-25T21:20:29.985-0300 I NETWORK  [conn36] received client metadata from 127.0.0.1:50702 conn36: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:23:07.564-0300 I NETWORK  [conn35] end connection 127.0.0.1:50700 (2 connections now open)
+2021-02-25T21:23:07.564-0300 I NETWORK  [conn34] end connection 127.0.0.1:50698 (0 connections now open)
+2021-02-25T21:23:07.564-0300 I NETWORK  [conn36] end connection 127.0.0.1:50702 (1 connection now open)
+2021-02-25T21:27:26.701-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50704 #37 (1 connection now open)
+2021-02-25T21:27:26.706-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50706 #38 (2 connections now open)
+2021-02-25T21:27:26.741-0300 I NETWORK  [conn38] received client metadata from 127.0.0.1:50706 conn38: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:27:26.741-0300 I NETWORK  [conn37] received client metadata from 127.0.0.1:50704 conn37: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:27:28.958-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50708 #39 (3 connections now open)
+2021-02-25T21:27:28.962-0300 I NETWORK  [conn39] received client metadata from 127.0.0.1:50708 conn39: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:31:39.971-0300 I NETWORK  [conn38] end connection 127.0.0.1:50706 (2 connections now open)
+2021-02-25T21:31:39.971-0300 I NETWORK  [conn37] end connection 127.0.0.1:50704 (1 connection now open)
+2021-02-25T21:31:39.971-0300 I NETWORK  [conn39] end connection 127.0.0.1:50708 (0 connections now open)
+2021-02-25T21:32:17.746-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50710 #40 (1 connection now open)
+2021-02-25T21:32:17.748-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50712 #41 (2 connections now open)
+2021-02-25T21:32:17.781-0300 I NETWORK  [conn40] received client metadata from 127.0.0.1:50710 conn40: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:32:17.781-0300 I NETWORK  [conn41] received client metadata from 127.0.0.1:50712 conn41: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:32:17.865-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50714 #42 (3 connections now open)
+2021-02-25T21:32:17.867-0300 I NETWORK  [conn42] received client metadata from 127.0.0.1:50714 conn42: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:33:48.059-0300 I NETWORK  [conn40] end connection 127.0.0.1:50710 (2 connections now open)
+2021-02-25T21:33:48.059-0300 I NETWORK  [conn41] end connection 127.0.0.1:50712 (1 connection now open)
+2021-02-25T21:33:48.059-0300 I NETWORK  [conn42] end connection 127.0.0.1:50714 (0 connections now open)
+2021-02-25T21:35:37.514-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50716 #43 (1 connection now open)
+2021-02-25T21:35:37.517-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50718 #44 (2 connections now open)
+2021-02-25T21:35:37.551-0300 I NETWORK  [conn44] received client metadata from 127.0.0.1:50718 conn44: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:35:37.551-0300 I NETWORK  [conn43] received client metadata from 127.0.0.1:50716 conn43: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:35:37.632-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50720 #45 (3 connections now open)
+2021-02-25T21:35:37.635-0300 I NETWORK  [conn45] received client metadata from 127.0.0.1:50720 conn45: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:35:37.635-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50722 #46 (4 connections now open)
+2021-02-25T21:35:37.637-0300 I NETWORK  [conn46] received client metadata from 127.0.0.1:50722 conn46: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:36:54.657-0300 I NETWORK  [conn44] end connection 127.0.0.1:50718 (3 connections now open)
+2021-02-25T21:36:54.658-0300 I NETWORK  [conn43] end connection 127.0.0.1:50716 (2 connections now open)
+2021-02-25T21:36:54.658-0300 I NETWORK  [conn45] end connection 127.0.0.1:50720 (1 connection now open)
+2021-02-25T21:36:54.658-0300 I NETWORK  [conn46] end connection 127.0.0.1:50722 (0 connections now open)
+2021-02-25T21:41:09.778-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50724 #47 (1 connection now open)
+2021-02-25T21:41:09.781-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50726 #48 (2 connections now open)
+2021-02-25T21:41:09.814-0300 I NETWORK  [conn48] received client metadata from 127.0.0.1:50726 conn48: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:41:09.814-0300 I NETWORK  [conn47] received client metadata from 127.0.0.1:50724 conn47: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:41:09.895-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50728 #49 (3 connections now open)
+2021-02-25T21:41:09.897-0300 I NETWORK  [conn49] received client metadata from 127.0.0.1:50728 conn49: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T21:52:09.873-0300 I NETWORK  [conn49] end connection 127.0.0.1:50728 (2 connections now open)
+2021-02-25T22:56:02.993-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50730 #50 (3 connections now open)
+2021-02-25T22:56:02.997-0300 I NETWORK  [conn50] received client metadata from 127.0.0.1:50730 conn50: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T22:57:56.325-0300 I NETWORK  [conn50] end connection 127.0.0.1:50730 (2 connections now open)
+2021-02-25T22:57:56.326-0300 I NETWORK  [conn47] end connection 127.0.0.1:50724 (1 connection now open)
+2021-02-25T22:57:56.326-0300 I NETWORK  [conn48] end connection 127.0.0.1:50726 (0 connections now open)
+2021-02-25T22:58:59.379-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50732 #51 (1 connection now open)
+2021-02-25T22:58:59.382-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50734 #52 (2 connections now open)
+2021-02-25T22:58:59.420-0300 I NETWORK  [conn51] received client metadata from 127.0.0.1:50732 conn51: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T22:58:59.420-0300 I NETWORK  [conn52] received client metadata from 127.0.0.1:50734 conn52: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T22:58:59.511-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50736 #53 (3 connections now open)
+2021-02-25T22:58:59.514-0300 I NETWORK  [conn53] received client metadata from 127.0.0.1:50736 conn53: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T22:59:40.053-0300 I NETWORK  [conn53] end connection 127.0.0.1:50736 (2 connections now open)
+2021-02-25T22:59:40.053-0300 I NETWORK  [conn52] end connection 127.0.0.1:50734 (1 connection now open)
+2021-02-25T22:59:40.053-0300 I NETWORK  [conn51] end connection 127.0.0.1:50732 (0 connections now open)
+2021-02-25T23:03:01.835-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50738 #54 (1 connection now open)
+2021-02-25T23:03:01.838-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50740 #55 (2 connections now open)
+2021-02-25T23:03:01.871-0300 I NETWORK  [conn55] received client metadata from 127.0.0.1:50740 conn55: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:03:01.871-0300 I NETWORK  [conn54] received client metadata from 127.0.0.1:50738 conn54: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:03:02.431-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50742 #56 (3 connections now open)
+2021-02-25T23:03:02.434-0300 I NETWORK  [conn56] received client metadata from 127.0.0.1:50742 conn56: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:07:08.468-0300 I NETWORK  [conn54] end connection 127.0.0.1:50738 (2 connections now open)
+2021-02-25T23:07:08.468-0300 I NETWORK  [conn55] end connection 127.0.0.1:50740 (1 connection now open)
+2021-02-25T23:07:08.468-0300 I NETWORK  [conn56] end connection 127.0.0.1:50742 (0 connections now open)
+2021-02-25T23:07:24.339-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50744 #57 (1 connection now open)
+2021-02-25T23:07:24.340-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50746 #58 (2 connections now open)
+2021-02-25T23:07:24.845-0300 I NETWORK  [conn57] received client metadata from 127.0.0.1:50744 conn57: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:07:24.845-0300 I NETWORK  [conn58] received client metadata from 127.0.0.1:50746 conn58: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:07:25.670-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50748 #59 (3 connections now open)
+2021-02-25T23:07:25.672-0300 I NETWORK  [conn59] received client metadata from 127.0.0.1:50748 conn59: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:08:03.349-0300 I NETWORK  [conn57] end connection 127.0.0.1:50744 (2 connections now open)
+2021-02-25T23:08:03.349-0300 I NETWORK  [conn58] end connection 127.0.0.1:50746 (1 connection now open)
+2021-02-25T23:08:03.349-0300 I NETWORK  [conn59] end connection 127.0.0.1:50748 (0 connections now open)
+2021-02-25T23:15:11.772-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50750 #60 (1 connection now open)
+2021-02-25T23:15:11.785-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50752 #61 (2 connections now open)
+2021-02-25T23:15:11.804-0300 I NETWORK  [conn60] received client metadata from 127.0.0.1:50750 conn60: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:15:11.804-0300 I NETWORK  [conn61] received client metadata from 127.0.0.1:50752 conn61: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:15:12.225-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50754 #62 (3 connections now open)
+2021-02-25T23:15:12.234-0300 I NETWORK  [conn62] received client metadata from 127.0.0.1:50754 conn62: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:17:53.910-0300 I NETWORK  [conn60] end connection 127.0.0.1:50750 (1 connection now open)
+2021-02-25T23:17:53.910-0300 I NETWORK  [conn61] end connection 127.0.0.1:50752 (2 connections now open)
+2021-02-25T23:17:53.910-0300 I NETWORK  [conn62] end connection 127.0.0.1:50754 (0 connections now open)
+2021-02-25T23:19:29.386-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50756 #63 (1 connection now open)
+2021-02-25T23:19:29.387-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50758 #64 (2 connections now open)
+2021-02-25T23:19:29.423-0300 I NETWORK  [conn64] received client metadata from 127.0.0.1:50758 conn64: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:19:29.423-0300 I NETWORK  [conn63] received client metadata from 127.0.0.1:50756 conn63: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:19:29.504-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50760 #65 (3 connections now open)
+2021-02-25T23:19:29.506-0300 I NETWORK  [conn65] received client metadata from 127.0.0.1:50760 conn65: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:22:52.195-0300 I NETWORK  [conn63] end connection 127.0.0.1:50756 (2 connections now open)
+2021-02-25T23:22:52.195-0300 I NETWORK  [conn64] end connection 127.0.0.1:50758 (1 connection now open)
+2021-02-25T23:22:52.195-0300 I NETWORK  [conn65] end connection 127.0.0.1:50760 (0 connections now open)
+2021-02-25T23:45:12.795-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50762 #66 (1 connection now open)
+2021-02-25T23:45:12.798-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50764 #67 (2 connections now open)
+2021-02-25T23:45:12.842-0300 I NETWORK  [conn67] received client metadata from 127.0.0.1:50764 conn67: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:45:12.842-0300 I NETWORK  [conn66] received client metadata from 127.0.0.1:50762 conn66: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:45:13.538-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50766 #68 (3 connections now open)
+2021-02-25T23:45:13.545-0300 I NETWORK  [conn68] received client metadata from 127.0.0.1:50766 conn68: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:46:31.393-0300 I NETWORK  [conn67] end connection 127.0.0.1:50764 (2 connections now open)
+2021-02-25T23:46:31.393-0300 I NETWORK  [conn66] end connection 127.0.0.1:50762 (1 connection now open)
+2021-02-25T23:46:31.393-0300 I NETWORK  [conn68] end connection 127.0.0.1:50766 (0 connections now open)
+2021-02-25T23:50:39.327-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50768 #69 (1 connection now open)
+2021-02-25T23:50:39.330-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50770 #70 (2 connections now open)
+2021-02-25T23:50:39.355-0300 I NETWORK  [conn70] received client metadata from 127.0.0.1:50770 conn70: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:50:39.355-0300 I NETWORK  [conn69] received client metadata from 127.0.0.1:50768 conn69: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:50:39.886-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50772 #71 (3 connections now open)
+2021-02-25T23:50:39.888-0300 I NETWORK  [conn71] received client metadata from 127.0.0.1:50772 conn71: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:50:59.859-0300 I NETWORK  [conn70] end connection 127.0.0.1:50770 (2 connections now open)
+2021-02-25T23:50:59.859-0300 I NETWORK  [conn69] end connection 127.0.0.1:50768 (1 connection now open)
+2021-02-25T23:50:59.859-0300 I NETWORK  [conn71] end connection 127.0.0.1:50772 (0 connections now open)
+2021-02-25T23:51:33.405-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50774 #72 (1 connection now open)
+2021-02-25T23:51:33.410-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50776 #73 (2 connections now open)
+2021-02-25T23:51:33.438-0300 I NETWORK  [conn73] received client metadata from 127.0.0.1:50776 conn73: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:51:33.438-0300 I NETWORK  [conn72] received client metadata from 127.0.0.1:50774 conn72: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:51:33.541-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50778 #74 (3 connections now open)
+2021-02-25T23:51:33.543-0300 I NETWORK  [conn74] received client metadata from 127.0.0.1:50778 conn74: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:55:46.164-0300 I NETWORK  [conn72] end connection 127.0.0.1:50774 (2 connections now open)
+2021-02-25T23:55:46.164-0300 I NETWORK  [conn73] end connection 127.0.0.1:50776 (1 connection now open)
+2021-02-25T23:55:46.164-0300 I NETWORK  [conn74] end connection 127.0.0.1:50778 (0 connections now open)
+2021-02-25T23:59:49.839-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50780 #75 (1 connection now open)
+2021-02-25T23:59:49.842-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50782 #76 (2 connections now open)
+2021-02-25T23:59:49.876-0300 I NETWORK  [conn75] received client metadata from 127.0.0.1:50780 conn75: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:59:49.876-0300 I NETWORK  [conn76] received client metadata from 127.0.0.1:50782 conn76: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-25T23:59:49.965-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:50784 #77 (3 connections now open)
+2021-02-25T23:59:49.969-0300 I NETWORK  [conn77] received client metadata from 127.0.0.1:50784 conn77: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.11.6.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.3" }
+2021-02-26T00:00:31.914-0300 I NETWORK  [conn77] end connection 127.0.0.1:50784 (2 connections now open)
+2021-02-26T00:00:31.914-0300 I NETWORK  [conn76] end connection 127.0.0.1:50782 (1 connection now open)
+2021-02-26T00:00:31.914-0300 I NETWORK  [conn75] end connection 127.0.0.1:50780 (0 connections now open)
