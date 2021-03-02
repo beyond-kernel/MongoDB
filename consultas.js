@@ -17,3 +17,6 @@ db.pokemon.find({ defense: { $gt: 60, $lte: 72  }  }, { name: 1, defense: 1, _id
 db.pokemon.find({ $or: [{ defense: { $gt: 60, $lte: 72  }}, {defense: 100}]  }, { name: 1, defense: 1, _id: 0})  //combinando operadores com "ou" maior que e menor e igual que com ou que bata exatamente com valores passados
 db.pokemon.find({ $or: [{ attack: { $gte: 80 }, speed: {$gte: 80} }, {defense: {$gte: 80}, hp: {$gte:80 }}]  }, { name: 1, attack:1, defense: 1, _id: 0}) //combinando operadores com "ou" e "e" com maior que para que bata com valores passados
 db.pokemon.find({ $or: [{ attack: { $gte: 80 }, speed: {$gte: 80} }, {defense: {$gte: 80}, hp: {$gte:80 }}]  }, {_id: false}).sort({hp: -1}).pretty() //utilizando cursor sort para ordernar consulta connforme valor passado 1 para crescente e -1 para decrescente 
+db.pokemon.find({types: {$size: 1}}, {_id: 0, name: 1, types: 1 }) //$size operador para trabalhar com quantidade de itens em umm array 
+db.pokemon.find({$and: [{types:  "Ghost"}, {types: "Dark"}]}, {_id: 0, name: 1, types: 1 }) //$and operador para trazer valores que batam com "um e outro" exatamente com os valores passado 
+db.pokemon.find({types: {$all: ["Ghost", "Dark"]}}, {_id: 0, name: 1, types: 1 }) //$all para trazer itens "um e outro" que batem com os valores passados, funciona como o $and
