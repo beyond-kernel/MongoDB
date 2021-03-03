@@ -20,3 +20,4 @@ db.pokemon.find({ $or: [{ attack: { $gte: 80 }, speed: {$gte: 80} }, {defense: {
 db.pokemon.find({types: {$size: 1}}, {_id: 0, name: 1, types: 1 }) //$size operador para trabalhar com quantidade de itens em umm array 
 db.pokemon.find({$and: [{types:  "Ghost"}, {types: "Dark"}]}, {_id: 0, name: 1, types: 1 }) //$and operador para trazer valores que batam com "um e outro" exatamente com os valores passado 
 db.pokemon.find({types: {$all: ["Ghost", "Dark"]}}, {_id: 0, name: 1, types: 1 }) //$all para trazer itens "um e outro" que batem com os valores passados, funciona como o $and
+db.pokemon.find({types:"Fire"}, {_id: 0, name: 1, attack: 1}).sort({attack: -1}).skip(3).limit(5).pretty() //skip para ir pra a proxima pagina do valor passado e limit para limitar a quantidade de dados apresentados conforme valor passado
