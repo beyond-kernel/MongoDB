@@ -8,7 +8,7 @@ db.pokemon.find({name: /^pik/i }).pretty() //o regex com o "i" ignora o case sen
 db.pokemon.find({attack: {$ne: 85 } }, {name: 1, attack: 1, _id: 0}) //$eq operador de comparacao igual para valores numericos
 db.pokemon.find({attack: {$eq: 85 } }, {name: 1, attack: 1, _id: 0}) //$ne operador de comparacao diferente (not equal) de para valores numericos
 db.pokemon.find({attack: {$gte: 85 } }, {name: 1, attack: 1, _id: 0}) //$gte operador de comparacao maior e igual que para valores numericos
-db.pokemon.find({attack: {$lte: 85 } }, {name: 1, attack: 1, _id: 0}) //$lte operador de comparacao menor e igual que para valores numericos
+db.pokemon.find({attack: {$lte: 85 } } , {name: 1, attack: 1, _id: 0}) //$lte operador de comparacao menor e igual que para valores numericos
 db.pokemon.find({attack: {$gt: 85 } }, {name: 1, attack: 1, _id: 0}) //$gt operador de comparacao maior que para valores numericos
 db.pokemon.find({attack: {$lt: 85 } }, {name: 1, attack: 1, _id: 0}) //$lt operador de comparacao menor que para valores numericos
 db.pokemon.find({ types: {$in :["Fire", "Flying"] }  }, { types: 1,name: 1, _id: 0}) //$in operador que retorna qualquer valor que bata com os valores passados 
@@ -21,3 +21,5 @@ db.pokemon.find({types: {$size: 1}}, {_id: 0, name: 1, types: 1 }) //$size opera
 db.pokemon.find({$and: [{types:  "Ghost"}, {types: "Dark"}]}, {_id: 0, name: 1, types: 1 }) //$and operador para trazer valores que batam com "um e outro" exatamente com os valores passado 
 db.pokemon.find({types: {$all: ["Ghost", "Dark"]}}, {_id: 0, name: 1, types: 1 }) //$all para trazer itens "um e outro" que batem com os valores passados, funciona como o $and
 db.pokemon.find({types:"Fire"}, {_id: 0, name: 1, attack: 1}).sort({attack: -1}).skip(3).limit(5).pretty() //skip para ir pra a proxima pagina do valor passado e limit para limitar a quantidade de dados apresentados conforme valor passado
+db.pokemon.find({ battle_points:{$exists: true} }).pretty() //operador $exists para retornar qualquer item que tenha o campo que bata com o valor passado na query
+db.pokemon.find({ "battle_points.hp": { $lte: 40 } }).pretty() //utilizando o dot notation para acessar o embeded document (objeto dentro de outro objeto) no caso hp dentro de battle_points
