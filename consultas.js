@@ -24,4 +24,6 @@ db.pokemon.find({types:"Fire"}, {_id: 0, name: 1, attack: 1}).sort({attack: -1})
 db.pokemon.find({ battle_points:{$exists: true} }).pretty() //operador $exists para retornar qualquer item que tenha o campo que bata com o valor passado na query
 db.pokemon.find({ "battle_points.hp": { $lte: 40 } }).pretty() //utilizando o dot notation para acessar o embeded document (objeto dentro de outro objeto) no caso hp dentro de battle_points
 //update
-db.pokemon.updateOne({name: /^O/}, {$set: { startsWithO: true} } ) //operador $set para updateOne e updateMany
+db.pokemon.updateOne({name: /^O/}, {$set: { startsWithO: true} } ) //operador $set para updateOne e updateMany operador $unset para reover campos
+db.pokemon.updateMany({types: "Fire"}, {$inc: { attack: 10  } } ) //operador $inc para incrementar ou decrementar basta usar valor negativo
+db.pokemon.updateMany({types: "Fire"}, {$mul: { attack: 10  } } ) //operador mul para multiplicar
