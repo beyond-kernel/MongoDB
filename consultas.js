@@ -23,7 +23,9 @@ db.pokemon.find({types: {$all: ["Ghost", "Dark"]}}, {_id: 0, name: 1, types: 1 }
 db.pokemon.find({types:"Fire"}, {_id: 0, name: 1, attack: 1}).sort({attack: -1}).skip(3).limit(5).pretty() //skip para ir pra a proxima pagina do valor passado e limit para limitar a quantidade de dados apresentados conforme valor passado
 db.pokemon.find({ battle_points:{$exists: true} }).pretty() //operador $exists para retornar qualquer item que tenha o campo que bata com o valor passado na query
 db.pokemon.find({ "battle_points.hp": { $lte: 40 } }).pretty() //utilizando o dot notation para acessar o embeded document (objeto dentro de outro objeto) no caso hp dentro de battle_points
-//update
+//UPDATE
 db.pokemon.updateOne({name: /^O/}, {$set: { startsWithO: true} } ) //operador $set para updateOne e updateMany operador $unset para reover campos
 db.pokemon.updateMany({types: "Fire"}, {$inc: { attack: 10  } } ) //operador $inc para incrementar ou decrementar basta usar valor negativo
-db.pokemon.updateMany({types: "Fire"}, {$mul: { attack: 10  } } ) //operador mul para multiplicar
+db.pokemon.updateMany({types: "Fire"}, {$mul: { attack: 10  } } ) //operador $mul para multiplicar
+db.pokemon.updateMany({types: "Fire"}, {$min: {attack: 150}}) //oparador $min atualiza para o valor minimo caso o valor do campo ultrapasse o valor passado 
+db.pokemon.updateMany({$max: {attack: 75}}) //oparador $max atualiza para o valor maximo caso o valor do campo ultrapasse o valor passado 
