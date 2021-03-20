@@ -27,5 +27,8 @@ db.pokemon.find({ "battle_points.hp": { $lte: 40 } }).pretty() //utilizando o do
 db.pokemon.updateOne({name: /^O/}, {$set: { startsWithO: true} } ) //operador $set para updateOne e updateMany operador $unset para reover campos
 db.pokemon.updateMany({types: "Fire"}, {$inc: { attack: 10  } } ) //operador $inc para incrementar ou decrementar basta usar valor negativo
 db.pokemon.updateMany({types: "Fire"}, {$mul: { attack: 10  } } ) //operador $mul para multiplicar
-db.pokemon.updateMany({types: "Fire"}, {$min: {attack: 150}}) //oparador $min atualiza para o valor minimo caso o valor do campo ultrapasse o valor passado 
-db.pokemon.updateMany({$max: {attack: 75}}) //oparador $max atualiza para o valor maximo caso o valor do campo ultrapasse o valor passado 
+db.pokemon.updateMany({types: "Fire"}, {$min: {attack: 150}}) //operador $min atualiza para o valor minimo caso o valor do campo ultrapasse o valor passado 
+db.pokemon.updateMany({$max: {attack: 75}}) //operador $max atualiza para o valor maximo caso o valor do campo ultrapasse o valor passado 
+db.pokemon.updateMany({types: "Bug"}, {$set: {name: "BUGS"}, $currentDate: {updateAt: true}}) //operador $currentDate parra ggravar co uma data especifica ter historico de alteracoes
+db.pokemon.updateOne({name: "Charmander"}, {$set: {attack: 150}}, {upsert: true}) // caso objeto upsert esteja setado com true se o documento não existir no update ele cria o documento com os valores passados
+db.pokemon.updateOne({name: "Calyrex"}, {$set: {attack: 150}, $setOnInsert: {defense: 35, hp: 800, speed: 85}}, {upsert: true}) // operador $setOnInsert cria outros elementos caso seja uma operação de insert e não de update     
