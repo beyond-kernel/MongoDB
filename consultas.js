@@ -32,3 +32,5 @@ db.pokemon.updateMany({$max: {attack: 75}}) //operador $max atualiza para o valo
 db.pokemon.updateMany({types: "Bug"}, {$set: {name: "BUGS"}, $currentDate: {updateAt: true}}) //operador $currentDate parra ggravar co uma data especifica ter historico de alteracoes
 db.pokemon.updateOne({name: "Charmander"}, {$set: {attack: 150}}, {upsert: true}) // caso objeto upsert esteja setado com true se o documento não existir no update ele cria o documento com os valores passados
 db.pokemon.updateOne({name: "Calyrex"}, {$set: {attack: 150}, $setOnInsert: {defense: 35, hp: 800, speed: 85}}, {upsert: true}) // operador $setOnInsert cria outros elementos caso seja uma operação de insert e não de update     
+db.pokemon.updateOne({_id: 1, types: "Poison"}, {$set: {"types.$": "Poison1" }}) //atualizando elemento Poison dentro de um array utilizando dot sintaxe ".$" para todos os elementos do array utilizar "$[]"
+db.pokemon.updateOne({_id: 1}, {$push: {types: "Grass"}}) //adicionando mais um elemento a um array
