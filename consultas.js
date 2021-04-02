@@ -23,6 +23,7 @@ db.pokemon.find({types: {$all: ["Ghost", "Dark"]}}, {_id: 0, name: 1, types: 1 }
 db.pokemon.find({types:"Fire"}, {_id: 0, name: 1, attack: 1}).sort({attack: -1}).skip(3).limit(5).pretty() //skip para ir pra a proxima pagina do valor passado e limit para limitar a quantidade de dados apresentados conforme valor passado
 db.pokemon.find({ battle_points:{$exists: true} }).pretty() //operador $exists para retornar qualquer item que tenha o campo que bata com o valor passado na query
 db.pokemon.find({ "battle_points.hp": { $lte: 40 } }).pretty() //utilizando o dot notation para acessar o embeded document (objeto dentro de outro objeto) no caso hp dentro de battle_points
+
 //UPDATE
 db.pokemon.updateOne({name: /^O/}, {$set: { startsWithO: true} } ) //operador $set para updateOne e updateMany operador $unset para reover campos
 db.pokemon.updateMany({types: "Fire"}, {$inc: { attack: 10  } } ) //operador $inc para incrementar ou decrementar basta usar valor negativo
@@ -34,3 +35,6 @@ db.pokemon.updateOne({name: "Charmander"}, {$set: {attack: 150}}, {upsert: true}
 db.pokemon.updateOne({name: "Calyrex"}, {$set: {attack: 150}, $setOnInsert: {defense: 35, hp: 800, speed: 85}}, {upsert: true}) // operador $setOnInsert cria outros elementos caso seja uma operação de insert e não de update     
 db.pokemon.updateOne({_id: 1, types: "Poison"}, {$set: {"types.$": "Poison1" }}) //atualizando elemento Poison dentro de um array utilizando dot sintaxe ".$" para todos os elementos do array utilizar "$[]"
 db.pokemon.updateOne({_id: 1}, {$push: {types: "Grass"}}) //adicionando mais um elemento a um array
+db.pokemon.updateOne({_id: 1}, {$push:{types:{$each: ['Ghost', 'Water', 'Dragon']}}}) //operador $each para incluir mais de um item em umm array
+db.pokemon.updateOne({_id: 1}, {$push:{types:{$each: ['Grass'], $position: 0 }}}) //operador $position para colocar um item numa determinada posicao de um array
+db.pokemon.updateOne({_id: 1}, {$addToSet: {types: "Grass"}}) // operador $addToSet verifica se já existte antes de adicionar item ao array (mais utlizado que o proprio push)
