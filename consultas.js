@@ -41,3 +41,4 @@ db.pokemon.updateOne({_id: 1}, {$addToSet: {types: "Grass"}}) // operador $addTo
 db.pokemon.updateOne({_id: 1}, {$push:{types: {$each:["Poison"], $sort: 1 }}}) //utilizando operador $sort para ordernar array ao incluir item para somente order sem inserrir nada só utilizar []
 db.pokemon.updateOne({_id: 1}, {$push:{types: {$each:["Poison"], $slice: 3 }}}) //operador $slice para apagar itens de um array a partir do valor passado, valores negativos ele apaga na ordem contraria 
 db.pokemon.updateOne({_id: 1}, {$pop:{types: -1}}) //operador $pop pra retirar ultimo elemento da lista -1 para os primeiros da lista e 1 para os ultimos
+db.pokemon.updateOne({_id: 1}, {$pull:{types: "Grass"}}) //operador $pull para remover do array tudo o que for definido no filtro como query e $pullAll para remover do array tudo o que for definido em uma lista ["Grass", "Poison"]
