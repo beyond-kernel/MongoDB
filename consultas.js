@@ -1,5 +1,4 @@
-//consultas find 
-
+//querys com find 
 
 db.pokemon.find({name: /^Pi/ }).pretty() //comeca com Pi
 db.pokemon.find({name: /Pi/ }).pretty() //qualquer string que contenha Pi
@@ -43,3 +42,10 @@ db.pokemon.updateOne({_id: 1}, {$push:{types: {$each:["Poison"], $slice: 3 }}}) 
 db.pokemon.updateOne({_id: 1}, {$pop:{types: -1}}) //operador $pop pra retirar ultimo elemento da lista -1 para os primeiros da lista e 1 para os ultimos
 db.pokemon.updateOne({_id: 1}, {$pull:{types: "Grass"}}) //operador $pull para remover do array tudo o que for definido no filtro como query e $pullAll para remover do array tudo o que for definido em uma lista ["Grass", "Poison"]
 db.pokemon.updateOne({_id: 1}, {$push:{types:{$each: [], $sort: {attack: -1} }}}) //exemplo de ordenacao de array de objetos com operador $sort
+
+//analise de query com .explain()
+db.pokemon.find({name: "Umbreon"}).explain('executionStats') //parametro executionStats para maiores detalhes de como a query foi feita
+
+//criando e consultando indexes
+db.pokemon.createIndex({name: 1}) //createIndex para criar index conforme o parametro que for passado para o nome e a chave do index
+db.pokemon.getIndexes() //para consultar indexes criados
