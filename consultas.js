@@ -48,4 +48,5 @@ db.pokemon.find({name: "Umbreon"}).explain('executionStats') //parametro executi
 
 //criando e consultando indexes
 db.pokemon.createIndex({name: 1}) //createIndex para criar index conforme o parametro que for passado para o nome e a chave do index
+db.pokemon.createIndex({attack: 1}, {name: "index_attack_1"}) //createIndex com segundo valor explicito para dar um nome ao index
 db.pokemon.getIndexes() //para consultar indexes criados
