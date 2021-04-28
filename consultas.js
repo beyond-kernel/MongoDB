@@ -1,5 +1,6 @@
-//querys com find 
+db.stats() //informacoes do banco
 
+//querys com find 
 db.pokemon.find({name: /^Pi/ }).pretty() //comeca com Pi
 db.pokemon.find({name: /Pi/ }).pretty() //qualquer string que contenha Pi
 db.pokemon.find({name: /^Pik/ }, {types: true}).pretty() //projection para trazer so o campo que eu quero
