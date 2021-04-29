@@ -53,3 +53,4 @@ db.pokemon.createIndex({attack: 1}, {name: "index_attack_1"}) //createIndex com 
 db.pokemon.getIndexes() //para consultar indexes criados
 db.pokemon.find({name: /^R/, attack: {$gte: 85}}).hint({ attack: 1, name: 1  }).explain('executionStats') //hint() para sugerir qual index usar
 db.pokemon.dropIndex("attack_1_name_1") // para apagar indexes
+db.people.find({name: /Blastoise/, height: 184}, {_id: 0, name: 1, height: 1}).explain("executionStats") //exemplo de covered queries para retorno mais rapido atraves de uma projecao em uma collection com index
