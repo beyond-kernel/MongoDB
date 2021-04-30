@@ -54,3 +54,56 @@ db.pokemon.getIndexes() //para consultar indexes criados
 db.pokemon.find({name: /^R/, attack: {$gte: 85}}).hint({ attack: 1, name: 1  }).explain('executionStats') //hint() para sugerir qual index usar
 db.pokemon.dropIndex("attack_1_name_1") // para apagar indexes
 db.people.find({name: /Blastoise/, height: 184}, {_id: 0, name: 1, height: 1}).explain("executionStats") //exemplo de covered queries para retorno mais rapido atraves de uma projecao em uma collection com index
+
+//AGGREGATE
+db.combats.aggregate()
+db.combats.aggregate([
+    {   //1º stage - que sao passos para fazer as ligacoes utilizando o resultado da stage anterior
+        $lookup: { //exemplo de stage lookup equivalente ao join em um banco relacional
+            from: "pokemon", //collection de origem do dado
+            localField: "First_pokemon", //campo da colletion local em que vou fazer o join equivalente a PK em um banco relacional
+            foreignField: "_id", // foreignField campo da colletionn externa equivalente a FK em um banco relacional
+            as:"pokemon1_arr" //Nome que eu escolhi para armazenar o resultado da query
+        }
+    },
+    {
+        // 2º stage
+        $lookup: {
+            from: "pokemon", //collection de origem do dado
+            localField: "Second_pokemon", //campo da colletion local em que vou fazer o join equivalente a PK em um banco relacional
+            foreignField: "_id", // foreignField campo da colletionn externa equivalente a FK em um banco relacional
+            as:"pokemon2_arr" //Nome que eu escolhi para armazenar o resultado da query
+        }
+    },
+    {
+        // 3º stage
+        $project: { //stage de projecao para remodular os dados  
+           _id:0,
+           Winner: 1,
+           pokemon1: {
+                $arrayElemAt: ["$pokemon1_arr", 0]
+           },
+           pokemon2: {
+                $arrayElemAt: ["$pokemon2_arr", 0]
+           }
+        }
+    },
+    {  
+        //stage final de projecao dos dados
+        $project:{
+            first_Pokemon: "$pokemon1.name",
+            second_Pokemon: "$pokemon2.name",
+            winner:{
+                $cond: { //operador $cond funciona para um if, then, else
+                    if: {
+                        $eq: ["$Winner", "$pokemon1._id"]
+                    },
+                    then: "$pokemon1.name",
+                    else: "$pokemon2.name"
+                }
+            }
+        }
+
+    }
+]).pretty() 
+

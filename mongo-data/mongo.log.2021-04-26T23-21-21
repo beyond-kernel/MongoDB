@@ -1,0 +1,78 @@
+2021-04-25T17:03:09.406-0300 I CONTROL  [initandlisten] MongoDB starting : pid=219 port=27017 dbpath=/mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data 64-bit host=DESKTOP-I3BT1R2
+2021-04-25T17:03:09.407-0300 I CONTROL  [initandlisten] db version v3.6.8
+2021-04-25T17:03:09.408-0300 I CONTROL  [initandlisten] git version: 8e540c0b6db93ce994cc548f000900bdc740f80a
+2021-04-25T17:03:09.408-0300 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.1f  31 Mar 2020
+2021-04-25T17:03:09.408-0300 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-04-25T17:03:09.409-0300 I CONTROL  [initandlisten] modules: none
+2021-04-25T17:03:09.409-0300 I CONTROL  [initandlisten] build environment:
+2021-04-25T17:03:09.409-0300 I CONTROL  [initandlisten]     distarch: x86_64
+2021-04-25T17:03:09.410-0300 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-04-25T17:03:09.410-0300 I CONTROL  [initandlisten] options: { processManagement: { fork: true }, storage: { dbPath: "mongo-data" }, systemLog: { destination: "file", path: "mongo-data/mongo.log" } }
+2021-04-25T17:03:09.412-0300 W -        [initandlisten] Detected unclean shutdown - /mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data/mongod.lock is not empty.
+2021-04-25T17:03:09.425-0300 I -        [initandlisten] Detected data files in /mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2021-04-25T17:03:09.429-0300 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2021-04-25T17:03:09.430-0300 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=5855M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),cache_cursors=false,compatibility=(release="3.0",require_max="3.0"),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2021-04-25T17:03:18.157-0300 I STORAGE  [initandlisten] WiredTiger message [1619380998:157829][219:0x7f6a34fe4ac0], txn-recover: Main recovery loop: starting at 38/132864
+2021-04-25T17:03:18.165-0300 I STORAGE  [initandlisten] WiredTiger message [1619380998:165555][219:0x7f6a34fe4ac0], txn-recover: Recovering log 38 through 39
+2021-04-25T17:03:19.100-0300 I STORAGE  [initandlisten] WiredTiger message [1619380999:100644][219:0x7f6a34fe4ac0], txn-recover: Recovering log 39 through 39
+2021-04-25T17:03:19.772-0300 I STORAGE  [initandlisten] WiredTiger message [1619380999:772073][219:0x7f6a34fe4ac0], txn-recover: Set global recovery timestamp: 0
+2021-04-25T17:03:19.919-0300 I CONTROL  [initandlisten] 
+2021-04-25T17:03:19.919-0300 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2021-04-25T17:03:19.919-0300 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2021-04-25T17:03:19.919-0300 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2021-04-25T17:03:19.919-0300 I CONTROL  [initandlisten] 
+2021-04-25T17:03:19.919-0300 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2021-04-25T17:03:19.920-0300 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2021-04-25T17:03:19.920-0300 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2021-04-25T17:03:19.920-0300 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2021-04-25T17:03:19.920-0300 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2021-04-25T17:03:19.920-0300 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2021-04-25T17:03:19.920-0300 I CONTROL  [initandlisten] 
+2021-04-25T17:03:19.921-0300 I CONTROL  [initandlisten] 
+2021-04-25T17:03:19.921-0300 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2021-04-25T17:03:19.927-0300 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2021-04-25T17:03:19.928-0300 I CONTROL  [initandlisten] 
+2021-04-25T17:03:20.032-0300 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/mnt/c/Users/rafan/OneDrive/Udemy/MongoDB/mongo-data/diagnostic.data'
+2021-04-25T17:03:20.033-0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2021-04-25T17:03:21.039-0300 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2021-04-25T17:03:39.197-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46374 #1 (1 connection now open)
+2021-04-25T17:03:39.204-0300 I NETWORK  [conn1] received client metadata from 127.0.0.1:46374 conn1: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:39.311-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46376 #2 (2 connections now open)
+2021-04-25T17:03:39.317-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46378 #3 (3 connections now open)
+2021-04-25T17:03:39.318-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46380 #4 (4 connections now open)
+2021-04-25T17:03:39.318-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46382 #5 (5 connections now open)
+2021-04-25T17:03:39.344-0300 I NETWORK  [conn5] received client metadata from 127.0.0.1:46382 conn5: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:39.345-0300 I NETWORK  [conn2] received client metadata from 127.0.0.1:46376 conn2: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:39.345-0300 I NETWORK  [conn3] received client metadata from 127.0.0.1:46378 conn3: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:39.346-0300 I NETWORK  [conn4] received client metadata from 127.0.0.1:46380 conn4: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:39.395-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46384 #6 (6 connections now open)
+2021-04-25T17:03:39.398-0300 I NETWORK  [conn6] received client metadata from 127.0.0.1:46384 conn6: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:39.399-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46386 #7 (7 connections now open)
+2021-04-25T17:03:39.404-0300 I NETWORK  [conn7] received client metadata from 127.0.0.1:46386 conn7: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:42.569-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46388 #8 (8 connections now open)
+2021-04-25T17:03:42.576-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46390 #9 (9 connections now open)
+2021-04-25T17:03:42.579-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46392 #10 (10 connections now open)
+2021-04-25T17:03:42.584-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46394 #11 (11 connections now open)
+2021-04-25T17:03:42.621-0300 I NETWORK  [conn8] received client metadata from 127.0.0.1:46388 conn8: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:42.622-0300 I NETWORK  [conn9] received client metadata from 127.0.0.1:46390 conn9: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:42.622-0300 I NETWORK  [conn10] received client metadata from 127.0.0.1:46392 conn10: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:03:42.623-0300 I NETWORK  [conn11] received client metadata from 127.0.0.1:46394 conn11: { driver: { name: "nodejs", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19042" }, platform: "'Node.js v12.4.0, LE (unified)", application: { name: "MongoDB Compass" } }
+2021-04-25T17:04:02.124-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46396 #12 (12 connections now open)
+2021-04-25T17:04:02.126-0300 I NETWORK  [conn12] received client metadata from 127.0.0.1:46396 conn12: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2021-04-25T17:25:28.512-0300 I STORAGE  [conn12] createCollection: test.domino with generated UUID: a44dd432-7b37-420e-b66f-cbd0a971907a
+2021-04-25T17:26:04.565-0300 I NETWORK  [conn12] end connection 127.0.0.1:46396 (11 connections now open)
+2021-04-25T17:26:08.435-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46398 #13 (12 connections now open)
+2021-04-25T17:26:08.436-0300 I NETWORK  [conn13] received client metadata from 127.0.0.1:46398 conn13: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.6.8" }, os: { type: "Linux", name: "Ubuntu", architecture: "x86_64", version: "20.04" } }
+2021-04-25T17:39:33.061-0300 I INDEX    [conn13] build index on: test.domino properties: { v: 2, key: { piece: 1.0 }, name: "piece_1", ns: "test.domino" }
+2021-04-25T17:39:33.062-0300 I INDEX    [conn13] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2021-04-25T17:39:33.079-0300 I INDEX    [conn13] build index done.  scanned 28 total records. 0 secs
+2021-04-25T22:16:14.022-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46400 #14 (13 connections now open)
+2021-04-25T22:16:14.026-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46402 #15 (14 connections now open)
+2021-04-25T22:16:14.070-0300 I NETWORK  [conn14] received client metadata from 127.0.0.1:46400 conn14: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.12.2.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.5" }
+2021-04-25T22:16:14.071-0300 I NETWORK  [conn15] received client metadata from 127.0.0.1:46402 conn15: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.12.2.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.5" }
+2021-04-25T22:16:14.177-0300 I NETWORK  [listener] connection accepted from 127.0.0.1:46404 #16 (15 connections now open)
+2021-04-25T22:16:14.180-0300 I NETWORK  [conn16] received client metadata from 127.0.0.1:46404 conn16: { application: { name: "MongoDB Compass" }, driver: { name: "mongo-csharp-driver", version: "2.12.2.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.19042", architecture: "x86_64", version: "10.0.19042" }, platform: ".NET 5.0.5" }
+2021-04-25T22:22:06.544-0300 I NETWORK  [conn16] end connection 127.0.0.1:46404 (14 connections now open)
+2021-04-25T22:22:06.544-0300 I NETWORK  [conn15] end connection 127.0.0.1:46402 (13 connections now open)
+2021-04-25T22:22:06.544-0300 I NETWORK  [conn14] end connection 127.0.0.1:46400 (12 connections now open)
+2021-04-25T22:41:52.568-0300 I NETWORK  [conn13] end connection 127.0.0.1:46398 (11 connections now open)
