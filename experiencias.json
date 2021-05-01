@@ -1,0 +1,3153 @@
+[
+        {
+            "_id": "001",
+            "name": "Encolhe (Shrink)",
+            "description": "Muda o tamanho de qualquer coisa com suas duas antenas. É do tamanho de um parafuso."
+        },
+        {
+            "_id": "002",
+            "name": "Lambedor (Doubledip)",
+            "description": "Projetado para lamber comida. Foi reprogramado para lamber cãezinhos (algo comum feito pelos pais)."
+        },
+        {
+            "_id": "003",
+            "name": "Howcome",
+            "description": "Irrita um planeta inteiro perguntando repetitivamente \"Porque?\" \"Como assim?\"."
+        },
+        {
+            "_id": "004",
+            "name": "Grasnido (Squawk)",
+            "description": "Projetado para atuar como um papagaio e incomodar as pessoas com um guincho estridente."
+        },
+        {
+            "_id": "005",
+            "name": "Truxx",
+            "description": "Projetado para mover máquinas pesadas no laboratório do Jumba."
+        },
+        {
+            "_id": "006",
+            "name": "Percy",
+            "description": "Faz todas as coisas dos quadro andarem."
+        },
+        {
+            "_id": "007",
+            "name": "Gigi",
+            "description": "Um cachorro de raça Shih Tzu, projetada para deixar as pessoas irritadas com seus latidos."
+        },
+        {
+            "_id": "008",
+            "name": "Carmine",
+            "description": "Prende você com caramelo."
+        },
+        {
+            "_id": "009",
+            "name": "Pop",
+            "description": "Serve bebidas refrescantes para Jumba."
+        },
+        {
+            "_id": "010",
+            "name": "Felix/Oscar",
+            "description": "É como um faxineiro tamanduá, limpa toda e qualquer sujeira que encontrar."
+        },
+        {
+            "_id": "011",
+            "name": "Inkstain",
+            "description": "Derrama tinta em tudo."
+        },
+        {
+            "_id": "012",
+            "name": "Antitherm",
+            "description": "Faz as temperaturas ao contrário do previsto."
+        },
+        {
+            "_id": "013",
+            "name": "Peludo (Furry)",
+            "description": "Faz o cabelo das pessoas crescer."
+        },
+        {
+            "_id": "014",
+            "name": "Kernel",
+            "description": "Estoura pipocas."
+        },
+        {
+            "_id": "015",
+            "name": "Ruggles",
+            "description": "Vira um tapete que viaja quando você anda sobre ele."
+        },
+        {
+            "_id": "016",
+            "name": "Malte (Malt)",
+            "description": "Faz congelados para Jumba."
+        },
+        {
+            "_id": "017",
+            "name": "Lidds",
+            "description": "Desliga contentores."
+        },
+        {
+            "_id": "018",
+            "name": "Puck",
+            "description": "Projetado para nunca ir para a equipe do adversário."
+        },
+        {
+            "_id": "019",
+            "name": "Desajeitado (Clumsy)",
+            "description": "Projetado para ser desajeitado e bater nas coisas."
+        },
+        {
+            "_id": "020",
+            "name": "Espertinho (Slick)",
+            "description": "É um vendedor com chapéu de palha e gravata vermelha, convence as pessoas a comprar seus produtos (ou pessoas, porque ele conseguiu vender a ex-esposa de Jumba)."
+        },
+        {
+            "_id": "021",
+            "name": "Twang",
+            "description": "Solta um estranho som alienigena."
+        },
+        {
+            "_id": "022",
+            "name": "Hertz Donut",
+            "description": "Oferece um típico doce americano com formato de rosca que se chama Hertz Donut; quando você pergunta o que é ele bate em você e diz \"Doi, não é?\"."
+        },
+        {
+            "_id": "023",
+            "name": "Cyclo",
+            "description": "Deixa você tonto girando em torno de você com alta frequência."
+        },
+        {
+            "_id": "024",
+            "name": "Hamlette",
+            "description": "Transforma objetos em presunto."
+        },
+        {
+            "_id": "025",
+            "name": "Topo (Topper)",
+            "description": "Parece uma estrela, projetada para emitir uma luz muito forte para manter as pessoas acordadas. Seu número é uma referência ao dia 25 de dezembro (Natal)."
+        },
+        {
+            "_id": "026",
+            "name": "Peão (Pawn)",
+            "description": "Faz você ficar obcecado por xadrez, mas acidentalmente Jumba misturou DNA de camarão e agora ele faz você ficar obcecado por jogar xadrez perto da água."
+        },
+        {
+            "_id": "027",
+            "name": "Felpudo (Plushy)",
+            "description": "Transforma pessoas em um brinquedo."
+        },
+        {
+            "_id": "028",
+            "name": "Lori",
+            "description": "Destinado a fazer as pessoas saltar para cima e para baixo constantemente."
+        },
+        {
+            "_id": "029",
+            "name": "Reizinho (Checkers)",
+            "description": "Faz as pessoas se sentirem os reis do pedaço. Quem o possuir terá controle sobre todos os seres vivos ao seu redor (porém não afeta seus primos)."
+        },
+        {
+            "_id": "030",
+            "name": "Violeta (Vialet)",
+            "description": "Faz as pessoas vulgares ficarem roxa."
+        },
+        {
+            "_id": "031",
+            "name": "Beliscador (Gotchu)",
+            "description": "Uma lagosta laranja; Dá beliscões com suas quatro pinças."
+        },
+        {
+            "_id": "032",
+            "name": "Lorota (Fibber)",
+            "description": "Projetada para detectar mentiras. Quanto mais as pessoas contam mentiras, mais ele apita, forçando assim, as pessoas a contarem a verdade."
+        },
+        {
+            "_id": "033",
+            "name": "Cara de Martelo (Hammerface)",
+            "description": "Martela pregos, casas, etc. mas também pode usar sua cara de martelo para machucar as pessoas."
+        },
+        {
+            "_id": "034",
+            "name": "Splort",
+            "description": "Destinado a arruinar amizades."
+        },
+        {
+            "_id": "035",
+            "name": "Felipe (Philip)",
+            "description": "Destinado a ser um guarda para o laboratório de Jumba, mas ele não deixa ninguém entrar, nem mesmo o Jumba."
+        },
+        {
+            "_id": "036",
+            "name": "Poki",
+            "description": "Faz buracos em recipientes com sua cauda cheia de espinhos."
+        },
+        {
+            "_id": "037",
+            "name": "Snipper",
+            "description": "Projetado para dar um luxuoso cabelo para Jumba."
+        },
+        {
+            "_id": "038",
+            "name": "Plats",
+            "description": "Trança o cabelo de Jumba."
+        },
+        {
+            "_id": "039",
+            "name": "Atlas",
+            "description": "Projetado para ser um globo com mais de 400 planetas diferentes."
+        },
+        {
+            "_id": "040",
+            "name": "Cavuca (Backhoe)",
+            "description": "Faz buracos na terra."
+        },
+        {
+            "_id": "041",
+            "name": "Cafona (Kitsch)",
+            "description": "Lava tudo que está superior a ele."
+        },
+        {
+            "_id": "042",
+            "name": "Coceira (Itch)",
+            "description": "Deixa você com coceira."
+        },
+        {
+            "_id": "043",
+            "name": "Cubo teca (Cubesteak)",
+            "description": "Faz carne quadrada."
+        },
+        {
+            "_id": "044",
+            "name": "Quatro cabeças (Forehead)",
+            "description": "Canta música de barbearia."
+        },
+        {
+            "_id": "045",
+            "name": "Melvin",
+            "description": "Ele vai na pessoa e dá um melvin, um tipo de Wedgie é golpe americano que puxa a cueca de uma pessoa com toda a força."
+        },
+        {
+            "_id": "046",
+            "name": "Wedgie",
+            "description": "Mesma função que Melvin."
+        },
+        {
+            "_id": "047",
+            "name": "Lorider",
+            "description": "Destinado a abrir fechaduras usando um explosivo membrano que se encontra nas suas costas e cauda."
+        },
+        {
+            "_id": "048",
+            "name": "Eco (Echo)",
+            "description": "Projetado para que tudo que falar com sua boca grande que fica na testa vire eco."
+        },
+        {
+            "_id": "049",
+            "name": "Coleção (Picker)",
+            "description": "Escolhe para Jumba o fruto da árvore do vizinho."
+        },
+        {
+            "_id": "050",
+            "name": "Dunk",
+            "description": "Empurra pessoas que estão perto de rios,derrubando-a."
+        },
+        {
+            "_id": "051",
+            "name": "Catarrento (Hocker)",
+            "description": "Solta uma saliva ácida pela boca que pode derreter qualquer coisa."
+        },
+        {
+            "_id": "052",
+            "name": "Coco",
+            "description": "Transforma as coisas em chocolate."
+        },
+        {
+            "_id": "053",
+            "name": "Reclamador (Whine)",
+            "description": "Faz você reclamar e lamentar de tudo."
+        },
+        {
+            "_id": "054",
+            "name": "Melado (Fudgy)",
+            "description": "Afoga pessoas no seu chocolate pegajoso."
+        },
+        {
+            "_id": "055",
+            "name": "Snarfhonk",
+            "description": "Faz o som de uma buzina ficar horrível."
+        },
+        {
+            "_id": "056",
+            "name": "Nibbiolo",
+            "description": "Projetado para roer o canto das coisas."
+        },
+        {
+            "_id": "057",
+            "name": "Aquecedor (Tenderizer)",
+            "description": "Aquece restos de comida para Jumba."
+        },
+        {
+            "_id": "058",
+            "name": "Lençol-Curto (Shortsheet)",
+            "description": "Projetado para comer lençois de camas."
+        },
+        {
+            "_id": "059",
+            "name": "Tornette",
+            "description": "Rasga papéis no meio."
+        },
+        {
+            "_id": "060",
+            "name": "Plink",
+            "description": "Projetado para fazer você ver tudo preto e branco, mas falhou e agora faz você ver tudo rosa."
+        },
+        {
+            "_id": "061",
+            "name": "Anachronator",
+            "description": "Viaja para o futuro e traz a melhor tecnologia para o Jumba."
+        },
+        {
+            "_id": "062",
+            "name": "Batata-Frita (Frenchfry)",
+            "description": "Cozinha para as pessoas e faz com que elas comam até ficarem gordonas,depois 062 come as pessoas (o estranho, é que as pessoas nunca se sentem cheias)."
+        },
+        {
+            "_id": "063",
+            "name": "Pufferizer",
+            "description": "Faz o cabelo das pessoas inchar."
+        },
+        {
+            "_id": "064",
+            "name": "Nappifier",
+            "description": "Faz você tirar uma soneca temporária."
+        },
+        {
+            "_id": "065",
+            "name": "Britfood",
+            "description": "Era para ser a versão mais boa do 062, mas falhou e agora só serve marisco,camarão ou outra comida não saudável."
+        },
+        {
+            "_id": "066",
+            "name": "Glam",
+            "description": "Foi projetado para fazer Jumba olhar snazzy super. Seu nome vem da palavra glamourosa."
+        },
+        {
+            "_id": "067",
+            "name": "Sombra (Shady)",
+            "description": "O Sombra como experimento foi destinado a fazer sombra"
+        },
+        {
+            "_id": "068",
+            "name": "Tom",
+            "description": "Projetado para melhorar a recepção de TV do jumba"
+        },
+        {
+            "_id": "069",
+            "name": "H. T.",
+            "description": "Desenhado para ser uma banheira para Jumba."
+        },
+        {
+            "_id": "070",
+            "name": "Flapjack",
+            "description": "Desenhado para fazer panquecas para Jumba, mas é um flop (não funciona). seu lugar é com Batata frita como seu ajudante."
+        },
+        {
+            "_id": "071",
+            "name": "Penny",
+            "description": "Faz moedas falsas para enganar as pessoas."
+        },
+        {
+            "_id": "072",
+            "name": "Stickystuck",
+            "description": "Desenhado para colocar cola na cadeira."
+        },
+        {
+            "_id": "073",
+            "name": "Cantopaz (Cornerpiece)",
+            "description": "Desenhado para ser uma peça de canto para Jumba que não podia fazer nada melhor. Ele apareceu em algumas revistas Disney Adventures."
+        },
+        {
+            "_id": "074",
+            "name": "Welco",
+            "description": "Designado para alterar as cores de volta ao básico e secundário."
+        },
+        {
+            "_id": "075",
+            "name": "WooWoo",
+            "description": "Projetado para Tornar você mais confiante."
+        },
+        {
+            "_id": "076",
+            "name": "Tapete de banho (Bath Matt)",
+            "description": "Desenhado para ser um tapete de banho."
+        },
+        {
+            "_id": "077",
+            "name": "Zawp",
+            "description": "Só sabe dormir, e ronca alto para incomodar as pessoas"
+        },
+        {
+            "_id": "078",
+            "name": "Snozzle",
+            "description": "Projetado para pesquisar a vida de uma pessoa por inteira e depois contar para todos os momentos mais constrangedores."
+        },
+        {
+            "_id": "079",
+            "name": "Análise (Fogger)",
+            "description": "Projetado para fazer as pessoas humildes em mesquinhas e rebeldes ou vice-versa."
+        },
+        {
+            "_id": "080",
+            "name": "Heavy",
+            "description": "Projetado para aguentar qualquer impacto, ataque ou arma que seja mandado contra ele."
+        },
+        {
+            "_id": "081",
+            "name": "White",
+            "description": "Projetado para transformar tudo o que toca em branco. Foi liberado junto ao 082."
+        },
+        {
+            "_id": "082",
+            "name": "Black",
+            "description": "Projetado para transformar tudo o que toca em preto. Foi liberado junto ao 081."
+        },
+        {
+            "_id": "083",
+            "name": "Glow",
+            "description": "Projetado para prender você em um musgo fedorento."
+        },
+        {
+            "_id": "084",
+            "name": "Rap",
+            "description": "Projetado para fazer a todos serem viciados em Rap."
+        },
+        {
+            "_id": "085",
+            "name": "Rocko",
+            "description": "Projetado para encontrar pedras preciosas."
+        },
+        {
+            "_id": "086",
+            "name": "Prisão (Clink)",
+            "description": "Ele aprisiona qualquer experiência se dividindo ao meio e depois fechando-a."
+        },
+        {
+            "_id": "087",
+            "name": "Caniço (Puddles)",
+            "description": "Projetado para fazer você virar um mestre obcecado por pescaria."
+        },
+        {
+            "_id": "088",
+            "name": "Rudy",
+            "description": "Projetado para fazer você mais rude."
+        },
+        {
+            "_id": "089",
+            "name": "Tempão (Skip)",
+            "description": "Faz com que as pessoas \"pulem\" 10 anos para o futuro, porém, Jumba queria que 089 pulasse só 10 minutos para o futuro."
+        },
+        {
+            "_id": "090",
+            "name": "Astro",
+            "description": "Projetado para fazer várias constelações diferentes."
+        },
+        {
+            "_id": "091",
+            "name": "Cafuné",
+            "description": "Projetado para fazer todos darem um cafuné nele, porém na hora que vão fazer isso ele acerta uma mordida nele."
+        },
+        {
+            "_id": "092",
+            "name": "Gutman",
+            "description": "Projetado para criar todo o tipo de bugiganga que servem como arma."
+        },
+        {
+            "_id": "093",
+            "name": "Blackout",
+            "description": "Projetado para engolir toda a energia elétrica de uma cidade."
+        },
+        {
+            "_id": "094",
+            "name": "Velhaco (Louis B.)",
+            "description": "Projetado para mandar formas de vida para o momento em que uma guerra existe."
+        },
+        {
+            "_id": "095",
+            "name": "Micose",
+            "description": "Projetado para colocar pó de mico nas calças das pessoas."
+        },
+        {
+            "_id": "096",
+            "name": "Duody",
+            "description": "Projetado para fazer todos terem personalidades múltiplas."
+        },
+        {
+            "_id": "097",
+            "name": "Moony",
+            "description": "Projetado para fazer com que seja noite para sempre."
+        },
+        {
+            "_id": "098",
+            "name": "Florir",
+            "description": "Projetado para fazer com que as cidades se transformem em florestas."
+        },
+        {
+            "_id": "099",
+            "name": "Tuco",
+            "description": "Projetado para agir como um pica-pau, criando um barulho louco."
+        },
+        {
+            "_id": "100",
+            "name": "Tascador (Trickster)",
+            "description": "Projetado para roubar beijos de pessoas. Foi ativado bem no dia dos namorados."
+        },
+        {
+            "_id": "101",
+            "name": "Trike",
+            "description": "Projetado para modificar as ruas."
+        },
+        {
+            "_id": "102",
+            "name": "Stopgo",
+            "description": "Assemelha-se muito com um semáforo. A sua função é causar grandes distúrbios no trânsito, porém quando Lilo e Stitch o tornaram bom, ele começou a ajudar o trânsito a correr bem."
+        },
+        {
+            "_id": "103",
+            "name": "Stamen",
+            "description": "Destrói colônias de flores raras."
+        },
+        {
+            "_id": "104",
+            "name": "Breakzero",
+            "description": "Projetado para cortar os freios dos carros. Quando foi capturado por Lilo e Stitch foi reprogramado para criar freios."
+        },
+        {
+            "_id": "105",
+            "name": "Speed",
+            "description": "Foi feito em forma de anel. Projetado para fazer a pessoa correr sem parar."
+        },
+        {
+            "_id": "106",
+            "name": "Poorimas",
+            "description": "Projetado para fazer rimas horríveis."
+        },
+        {
+            "_id": "107",
+            "name": "Fungo",
+            "description": "Coloca fungo em todos os alimentos que encontra."
+        },
+        {
+            "_id": "108",
+            "name": "Piada",
+            "description": "Projetado para contar as piores piadas, como \"por que a galinha atravessou a rua?\" e \"por que a água foi presa.\""
+        },
+        {
+            "_id": "109",
+            "name": "Lição",
+            "description": "Projetado para fazer planos para Jumba.acabou fazendo planos horríveis e fazia ele fazer falhas"
+        },
+        {
+            "_id": "110",
+            "name": "Guinchinho (Sqeak)",
+            "description": "Irrita as pessoas porque fala sem parar numa voz muito mais alta e aguda que um liquidificador."
+        },
+        {
+            "_id": "111",
+            "name": "Mulch",
+            "description": "Estraga a grama com seus pés."
+        },
+        {
+            "_id": "112",
+            "name": "Toons",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "113",
+            "name": "Ferradura (Shoe)",
+            "description": "Traz azar ou sorte."
+        },
+        {
+            "_id": "114",
+            "name": "Skyooz",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "115",
+            "name": "Sellby",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "116",
+            "name": "Switch",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "117",
+            "name": "Tock",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "118",
+            "name": "Fink",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "119",
+            "name": "Inverto",
+            "description": "Foi mal interpretado como Experimento 611. Ele foi relatado por Dr. Jacques von Hamsterviel como um experimento de chocolate que afoga das pessoas com sua doçura, que na verdade é a experiência 054 (Fudgy)."
+        },
+        {
+            "_id": "120",
+            "name": "Confusão (Snafu)",
+            "description": "É um estraga-prazeres, criada para frustrar os planos de qualquer um."
+        },
+        {
+            "_id": "121",
+            "name": "Sappy",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "122",
+            "name": "Dorkifier",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "123",
+            "name": "Carmen",
+            "description": "Parecida físicamente com a experiência 624 (Angel). Usa um cocar de frutas e uma maraca em cada uma de suas quatro mãos. Projetado para fazer as pessoas dançarem até cair. Seunome é uma referÊncia a Carmen Miranda."
+        },
+        {
+            "_id": "124",
+            "name": "Rhymer",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "125",
+            "name": "Gibberish",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "126",
+            "name": "Stank",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "127",
+            "name": "Dembums",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "128",
+            "name": "Vespie (Bugby)",
+            "description": "Transforma as pessoas em insetos."
+        },
+        {
+            "_id": "129",
+            "name": "Crutch",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "130",
+            "name": "Bonez",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "131",
+            "name": "Poik",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "132",
+            "name": "Spoony",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "133",
+            "name": "P.P.[Piadista Prático] (P.J.[Pratical Joker])",
+            "description": "Prega peças nas pessoas (porém não sabe a hora de parar)."
+        },
+        {
+            "_id": "134",
+            "name": "Shredder",
+            "description": "Rasga documentos importantes com seus dentes de aço."
+        },
+        {
+            "_id": "135",
+            "name": "Remote",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "136",
+            "name": "Gloomy",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "137",
+            "name": "Flip",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "138",
+            "name": "Dropsy",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "139",
+            "name": "I Know You Are But What Am I",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "140",
+            "name": "Changeling",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "141",
+            "name": "Burr",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "142",
+            "name": "Blondie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "143",
+            "name": "Clog",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "144",
+            "name": "Samolean",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "145",
+            "name": "Bragg",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "146",
+            "name": "Flashbomb",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "147",
+            "name": "Newton",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "148",
+            "name": "Weasel",
+            "description": "Projetado para subir nas pernas líder planetário durante aparições públicas."
+        },
+        {
+            "_id": "149",
+            "name": "Bonnie",
+            "description": "Encontrado com 150. Nomeado em referência à assaltante de bancos Bonnie Parker. Projetado para roubar as coisas sem o conhecimento da vítima, bem como suas armas especiais são pistola e arma de plasma. 149 e 150 são capturados e acabam na prisão como condenados."
+        },
+        {
+            "description": "Nota: ela é chamada de 349, no episódio, mas é oficialmente 149 no site da Disney."
+        },
+        {
+            "_id": "150",
+            "name": "Clyde",
+            "description": "Encontrado com 149. Nomeado em referência ao assaltante de bancos Clyde Barrow. Projetado para roubar as coisas sem o conhecimento da vítima, bem como sua armas especiais são um canivete e seu braçço mecânico. 149 e 150 são capturados e acabar na prisão como condenados."
+        },
+        {
+            "description": "Nota:. ele é chamado de 350, no episódio, mas é oficialmente 150 no site da Disney"
+        },
+        {
+            "_id": "151",
+            "name": "Bebeficador (Babyfier)",
+            "description": "Transforma adultos em bebês."
+        },
+        {
+            "_id": "152",
+            "name": "Mama Frita",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "153",
+            "name": "XYZ",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "154",
+            "name": "Frapp",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "155",
+            "name": "Burger",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "156",
+            "name": "Shopahol",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "157",
+            "name": "Hotl",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "158",
+            "name": "Finder",
+            "description": "Projetado para encontrar qualquer coisa e buzinar quando a encontra."
+        },
+        {
+            "_id": "159",
+            "name": "Nacho",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "160",
+            "name": "Rabbit",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "161",
+            "name": "Grumbelly",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "162",
+            "name": "Tub",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "163",
+            "name": "Dumbbell",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "164",
+            "name": "Lesdyxia",
+            "description": "Progetado para causar dislexia nas pessoas. O nome deste experimento é uma piada escondida: Dislexia lido por uma pessoa disléxica."
+        },
+        {
+            "_id": "165",
+            "name": "Sandy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "166",
+            "name": "Peppah",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "167",
+            "name": "Frizzy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "168",
+            "name": "Redped",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "169",
+            "name": "Rolo",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "170",
+            "name": "Daze",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "171",
+            "name": "Rich",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "172",
+            "name": "Ditch",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "173",
+            "name": "Mitch",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "174",
+            "name": "Nopost",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "175",
+            "name": "Kite",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "176",
+            "name": "Allsox",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "177",
+            "name": "Picote (Clip)",
+            "description": "Jumba projetou a experiência 177 para comer minerais valiosos, porém, deu errado e agora come cabelo."
+        },
+        {
+            "_id": "178",
+            "name": "Barkleigh",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "179",
+            "name": "Bumper",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "180",
+            "name": "Boggle",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "181",
+            "name": "Roberts",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "182",
+            "name": "Ollie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "183",
+            "name": "Detour",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "184",
+            "name": "NPH",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "185",
+            "name": "Splutter",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "186",
+            "name": "Laakso",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "187",
+            "name": "Cal",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "188",
+            "name": "Forward",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "189",
+            "name": "Hotcold",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "190",
+            "name": "Florrie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "191",
+            "name": "Roxy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "192",
+            "name": "Breakup",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "193",
+            "name": "Will",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "194",
+            "name": "Trax",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "195",
+            "name": "Whoooa!",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "196",
+            "name": "Esca-later",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "197",
+            "name": "Pretzel",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "198",
+            "name": "Carat",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "199",
+            "name": "Enxerido (Nosy)",
+            "description": "É um xereta. Programado para descobrir e revelar os segredos mais constrangedores das pessoas."
+        },
+        {
+            "_id": "200",
+            "name": "Adam",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "201",
+            "name": "Geigenstein",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "202",
+            "name": "Jam",
+            "description": "Projetado para rastrear geléia com seu grito estridente. Ativado no final do Stitch! O filme, embora seu pod foi erradamente classificada como 455."
+        },
+        {
+            "_id": "203",
+            "name": "Snipe",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "204",
+            "name": "Lavanderia (Nosox)",
+            "description": "Projetado para fazer meias desaparecer."
+        },
+        {
+            "_id": "205",
+            "name": "Cheney",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "206",
+            "name": "Maggie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "207",
+            "name": "Barcode",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "208",
+            "name": "Hoax",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "209",
+            "name": "Smoot",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "210",
+            "name": "Retrô (Retro)",
+            "description": "Transforma objetos ou pessoas em criaturas primitivas."
+        },
+        {
+            "_id": "211",
+            "name": "Jangle",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "212",
+            "name": "2-Late",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "213",
+            "name": "UHF",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "214",
+            "name": "Fotógrafo (Pix)",
+            "description": "Feito para tirar fotos embaraçosas das pessoas seu rosto parece uma câmera e seu corpo se assemelha a um tripé"
+        },
+        {
+            "_id": "215",
+            "name": "Crammer",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "216",
+            "name": "Key",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "217",
+            "name": "Rat",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "218",
+            "name": "Target",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "219",
+            "name": "Missy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "220",
+            "name": "Millie",
+            "description": "Projetado para tapar os buracos com um filtro de ar crucial para todos os H-drives."
+        },
+        {
+            "_id": "221",
+            "name": "Centelha (Sparky)",
+            "description": "Se transforma em pura eletricidade, viaja por correntes elétricas e causa grande destruição, foi a PRIMEIRA experiência ativada."
+        },
+        {
+            "_id": "222",
+            "name": "Dodói (Poxy)",
+            "description": "Parece uma célula. Entra no corpo de alguém e faz com que o hospedeiro tenha sintomas terríveis e nojentos, como arrotar sem parar, ter chulé, olhos inchados e perebas grandes e roxas espalhadas pelo corpo."
+        },
+        {
+            "_id": "223",
+            "name": "Defeito (Glitch)",
+            "description": "Faz com que qualquer máquina tenha defeito assim, se virar contra o dono."
+        },
+        {
+            "_id": "224",
+            "name": "Tweak",
+            "description": "Projetado para redefinir válvulas importantes e mostradores de \"caos máximo.\""
+        },
+        {
+            "_id": "225",
+            "name": "Mashy",
+            "description": "Projetado para comer minerais precioso, o que 177 (Picote) foi feito originalmente para fazer."
+        },
+        {
+            "_id": "226",
+            "name": "Combo",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "227",
+            "name": "Butter",
+            "description": "Capaz de bater até mesmo nas mais grossas portas."
+        },
+        {
+            "_id": "228",
+            "name": "Derrete (Melty)",
+            "description": "Cospe um fogo azul que derrete qualquer coisa."
+        },
+        {
+            "_id": "229",
+            "name": "Kingpin",
+            "description": "Uma experiência infeliz. Projetado como um alvo para jogos de guerra."
+        },
+        {
+            "_id": "230",
+            "name": "Checkup",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "231",
+            "name": "Sprok",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "232",
+            "name": "Poser",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "233",
+            "name": "Pitch",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "234",
+            "name": "Silêncio (Shush)",
+            "description": "Escuta as conversas particulares dos outros."
+        },
+        {
+            "_id": "235",
+            "name": "Docker",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "236",
+            "name": "Charger",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "237",
+            "name": "Blip",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "238",
+            "name": "Bworp",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "239",
+            "name": "Clickster",
+            "description": "provocar engarrafamentos."
+        },
+        {
+            "_id": "240",
+            "name": "Sap",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "241",
+            "name": "Press-5",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "242",
+            "name": "Brownout",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "243",
+            "name": "Pane",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "244",
+            "name": "Bore",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "245",
+            "name": "Sournote",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "246",
+            "name": "Creamer",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "247",
+            "name": "Qwerty",
+            "description": "Presumivelmente, nomeado como a fileira de teclas no teclado do computador. Função desconhecida."
+        },
+        {
+            "_id": "248",
+            "name": "Belle",
+            "description": "Assusta as pessoas com seus gritos."
+        },
+        {
+            "_id": "249",
+            "name": "Sproing",
+            "description": "Projetado para lançar pedras. Seu lugar é ajudar as pessoas a alcançar lugares altos."
+        },
+        {
+            "_id": "250",
+            "name": "Lacrosse",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "251",
+            "name": "Link",
+            "description": "Solta uma cola em duas pessoas (ou mais) que brigam ou não se entendem, e elas ficam presas uma a outra,se colocar lama nessa cola ela sai."
+        },
+        {
+            "_id": "252",
+            "name": "Crete",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "253",
+            "name": "Uncrete",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "254",
+            "name": "Cheirosinho (Mr. Stenchy)",
+            "description": "Irresistivelmente fofo e adorável, exceto por seus \"primos\", se infiltra na base inimiga e depois exala um cheiro horrível que deixa o lugar desabitado por semanas (ou até por meses ou anos)."
+        },
+        {
+            "_id": "255",
+            "name": "Mrs. Sickly",
+            "description": "Um experimento que tem uma notável semelhança com o Cheirosinho, exceto que ela é verde. Como o Sr. Stenchy, ela foi projetada para ser irresistivelmente bonito e é uma bomba de fedor. Aparentemente, se os dois estão juntos, eles podem devastar planetas inteiros."
+        },
+        {
+            "_id": "256",
+            "name": "Addy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "257",
+            "name": "Rattat",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "258",
+            "name": "D.J. (Sample)",
+            "description": "Imita todos os sons que houve num ritmo musical irritante."
+        },
+        {
+            "_id": "259",
+            "name": "Rash",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "260",
+            "name": "GPS",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "261",
+            "name": "B. V. Beaverton",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "262",
+            "name": "Ás (Ace)",
+            "description": "Essa experiência é defeituosa. Ás é completamente bom e vive salvando as pessoas (e Jumba queria o contrário)."
+        },
+        {
+            "_id": "263",
+            "name": "SFS",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "264",
+            "name": "Poach",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "265",
+            "name": "Wip",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "266",
+            "name": "10x",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "267",
+            "name": "Geninho (Wishy-Washy)",
+            "description": "Realiza desejos, porém leva sempre os pedidos ao \"pé da letra\"."
+        },
+        {
+            "_id": "268",
+            "name": "Celsenheit",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "269",
+            "name": "Gyrotta",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "270",
+            "name": "Gillmore",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "271",
+            "name": "Noso",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "272",
+            "name": "Mamf",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "273",
+            "name": "Boxboom",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "274",
+            "name": "Alexander",
+            "description": "Um experimento projetado para fazer muitas chamadas telefônicas de longa distância. Ele faz chamadas em seu telefone para executar-se o custo em sua conta telefônica. Seu nome é, obviamente, refeerência de Alexander Graham Bell, o inventor do telefone."
+        },
+        {
+            "_id": "275",
+            "name": "Wormhole",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "276",
+            "name": "Remmy",
+            "description": "Entra nos sonhos das pessoas e transforma em pesadelos."
+        },
+        {
+            "_id": "277",
+            "name": "Meleco (Snooty)",
+            "description": "Parece um morcego que se alimenta de meleca, quanto mais ele come, mais perigoso ele vai ficando."
+        },
+        {
+            "_id": "278",
+            "name": "Pasthole",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "279",
+            "name": "Futurehole",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "280",
+            "name": "Benedict Arnold",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "281",
+            "name": "Ray",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "282",
+            "name": "Click",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "283",
+            "name": "Quarklifter",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "284",
+            "name": "Pixel",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "285",
+            "name": "Relax (Lax)",
+            "description": "Faz com que as pessoas parem de trabalhar e relaxem."
+        },
+        {
+            "_id": "286",
+            "name": "Gellasifier",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "287",
+            "name": "Burl",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "288",
+            "name": "Boomer",
+            "description": "Projetado para ter uma vida de bumerangue. Seu lugar é com a Sra. Hasagawa como um de seus \"gatos\"."
+        },
+        {
+            "_id": "289",
+            "name": "Stringulator",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "290",
+            "name": "U-port",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "291",
+            "name": "Catalyst",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "292",
+            "name": "Whatsamattafoyou",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "293",
+            "name": "Vacuum",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "294",
+            "name": "Poppapoppup",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "295",
+            "name": "Spineless",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "296",
+            "name": "Crash",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "297",
+            "name": "Curtinho (Shortstuff)",
+            "description": "Entra em máquinas e sabota elas, fazendo com que tenham curto circuito. Mas depois que ele foi transformado em um gigante, não podia mais entrar nas máquinas."
+        },
+        {
+            "_id": "298",
+            "name": "Cat",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "299",
+            "name": "Dimensionator",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "300",
+            "name": "Sinistro (Spooky)",
+            "description": "Transforma-se de modo mutante no pior medo das pessoas."
+        },
+        {
+            "_id": "301",
+            "name": "Progno",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "302",
+            "name": "Noidster",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "303",
+            "name": "Amnésio (Amnesio)",
+            "description": "Faz com que as pessoas tenha amnésia e esqueçam tudo."
+        },
+        {
+            "_id": "304",
+            "name": "Drag",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "305",
+            "name": "Spunky",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "306",
+            "name": "Roadrage",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "307",
+            "name": "Anna Stesia",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "308",
+            "name": "Jenny",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "309",
+            "name": "Smiler",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "310",
+            "name": "Fritzabrain",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "311",
+            "name": "Yellowstone",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "312",
+            "name": "Ben",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "313",
+            "name": "Thinktank",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "314",
+            "name": "Jones",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "315",
+            "name": "Chum",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "316",
+            "name": "Morfolomeu (Morpholomew)",
+            "description": "Faz com que as pessoas fiquem com o corpo igual a outra pessoa (porém ele tem que ter a figura ou a imagem dessa pessoa)."
+        },
+        {
+            "_id": "317",
+            "name": "Hyuckster",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "318",
+            "name": "Chortle",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "319",
+            "name": "Espinho (Spike)",
+            "description": "Deixa as pessoas com 99% de burrice e 1% de inteligência."
+        },
+        {
+            "_id": "320",
+            "name": "Cloudy",
+            "description": "Projetado para deprimir os outros com chuva constante. Seu lugar é na feira de frutas da Sra. Hasagawa, mantendo-os frescos por mais tempo."
+        },
+        {
+            "_id": "321",
+            "name": "Lightfoot",
+            "description": "Uma experiência de diversão que distrai o inimigo com o seu sapateado divertido."
+        },
+        {
+            "_id": "322",
+            "name": "Insulto (Heckler)",
+            "description": "Insulta e ofende as pessoas só para envergonha-lás."
+        },
+        {
+            "_id": "323",
+            "name": "Ronca-ronca (Hunkahunka)",
+            "description": "Um beija-flor que dá uma picadinha na pessoa e ela se apaixona pela primeira coisa que ver."
+        },
+        {
+            "_id": "324",
+            "name": "Ruinit",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "325",
+            "name": "Rack",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "326",
+            "name": "Pannix",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "327",
+            "name": "Molar",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "328",
+            "name": "Bugle",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "329",
+            "name": "Ava",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "330",
+            "name": "Serum",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "331",
+            "name": "Shagdog",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "332",
+            "name": "Cackle",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "333",
+            "name": "Cadente",
+            "description": "Quando grita, faz algum objeto pesado cair nas pessoas."
+        },
+        {
+            "_id": "334",
+            "name": "Miranda",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "335",
+            "name": "Popquiz",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "336",
+            "name": "Blooz",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "337",
+            "name": "Guilttrip",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "338",
+            "name": "Crow",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "339",
+            "name": "Crowsfoot",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "340",
+            "name": "Nodessertro (Whatsisname)",
+            "description": "É capaz de causar depressão em massa por roubar pudins, bolos, tortas e outros doces. Seu nome é muitas vezes esquecido, e por isso ele é chamado de \"Whatsisname (Qual seu nome)\"."
+        },
+        {
+            "_id": "341",
+            "name": "Wafty",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "342",
+            "name": "Greensleeves",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "343",
+            "name": "Chaching",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "344",
+            "name": "Dupli (Dupe)",
+            "description": "Duplica qualquer pessoa ou objeto, porém os clones não serão tão forte quanto o original."
+        },
+        {
+            "_id": "345",
+            "name": "Elástico (Elastico)",
+            "description": "Tem poder de elasticidade. Projetada para distrair as pessoas com truques cômicos."
+        },
+        {
+            "_id": "346",
+            "name": "Stuckup",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "347",
+            "name": "Slobber",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "348",
+            "name": "Snappish",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "349",
+            "name": "Lotuseater",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "350",
+            "name": "Addly",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "351",
+            "name": "Whoover",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "352",
+            "name": "Yvonne",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "353",
+            "name": "Blackoutro",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "354",
+            "name": "Jesstifer",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "355",
+            "name": "Transfere (Swapper)",
+            "description": "Troca o cérebro de duas criaturas de corpo."
+        },
+        {
+            "_id": "356",
+            "name": "Rippington",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "357",
+            "name": "Downes",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "358",
+            "name": "Manners",
+            "description": "Projetado para tornar as pessoas muito educada para lutar contra os valentões, polvilhando um pó especial de seu dedo para eles. Seu lugar é um com a Sra. Hasagawa como um de seus \"gatos\". Um dos poucos experimentos que podem falar."
+        },
+        {
+            "_id": "359",
+            "name": "Phoebe",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "360",
+            "name": "Soneca (Drowsy)",
+            "description": "Faz as pessoas dormirem."
+        },
+        {
+            "_id": "361",
+            "name": "Aron",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "362",
+            "name": "Putdown",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "363",
+            "name": "Crankster",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "364",
+            "name": "'Sgo",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "365",
+            "name": "Queasy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "366",
+            "name": "Xanad",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "367",
+            "name": "Ob",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "368",
+            "name": "Luddi",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "369",
+            "name": "Thomas",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "370",
+            "name": "Blueblood",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "371",
+            "name": "Simpatico",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "372",
+            "name": "Eve",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "373",
+            "name": "Worrywart",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "374",
+            "name": "Demotifier",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "375",
+            "name": "Fantasmo (Phantasmo)",
+            "description": "Entra em objetos inanimados, dá vida a eles e espalha caos."
+        },
+        {
+            "_id": "376",
+            "name": "Cassandra",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "377",
+            "name": "Annie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "378",
+            "name": "Lonelyhearts",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "379",
+            "name": "Grudge",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "380",
+            "name": "Judy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "381",
+            "name": "Neg",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "382",
+            "name": "1-Imp",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "383",
+            "name": "Vertigem (Swirly)",
+            "description": "Hipnotiza as pessoas e deixa elas num transe. Elas obedecerão a primeira ordem que ouvirem."
+        },
+        {
+            "_id": "384",
+            "name": "Woesmy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "385",
+            "name": "Hoobie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "386",
+            "name": "Hitch",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "387",
+            "name": "Substein",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "388",
+            "name": "Megan",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "389",
+            "name": "Facepainter",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "390",
+            "name": "Slimy",
+            "description": "Projetado para deixar um rastro de caracol escorregadio no caminho dos inimigos. Ele apareceu pela primeira vez no final de Stitch! O Filme."
+        },
+        {
+            "_id": "391",
+            "name": "Speedy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "392",
+            "name": "Margaret",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "393",
+            "name": "Missandra",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "394",
+            "name": "Joe",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "395",
+            "name": "Polly",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "396",
+            "name": "Connie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "397",
+            "name": "Brigão (Spats)",
+            "description": "Faz duas pessoas brigarem."
+        },
+        {
+            "_id": "398",
+            "name": "Gus the Second",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "399",
+            "name": "Super-X",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "400",
+            "name": "Precious",
+            "description": "Projetado para controlar todos os outros experimentos. Para neutralizar esta experiência, ela tem que ser jogado em uma vulcão. Seu nome, poderes e processo de neutralização são baseados no Anel de O Senhor dos Anéis. Ela originalmente deveria ter seu próprio episódio, uma paródia de O Senhor dos Anéis, mas a Disney descartou devido aa questões direitos autorais. [carece de fontes]."
+        },
+        {
+            "_id": "401",
+            "name": "Chafe",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "402",
+            "name": "Chile",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "403",
+            "name": "Zinger",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "404",
+            "name": "Bloom",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "405",
+            "name": "Lucky",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "406",
+            "name": "Voice",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "407",
+            "name": "Punk",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "408",
+            "name": "Berg I",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "409",
+            "name": "Gumshoe",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "410",
+            "name": "Halo",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "411",
+            "name": "Cowlick",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "412",
+            "name": "Char",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "413",
+            "name": "Estrago (Botulator)",
+            "description": "Estraga comida."
+        },
+        {
+            "_id": "414",
+            "name": "Mofado",
+            "description": "Passa mofo no pão."
+        },
+        {
+            "_id": "415",
+            "name": "Mostardo (Patter)",
+            "description": "Espalha mostarda pela casa toda."
+        },
+        {
+            "_id": "416",
+            "name": "Parslifier",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "417",
+            "name": "Sageonomificator",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "418",
+            "name": "Rosemary",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "419",
+            "name": "Vane",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "420",
+            "name": "Curdle",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "421",
+            "name": "Bustduster",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "422",
+            "name": "Doublecross",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "423",
+            "name": "Filibuster",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "424",
+            "name": "Decayer",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "425",
+            "name": "Mr. Brown",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "426",
+            "name": "Rewind",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "427",
+            "name": "Toepoke",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "428",
+            "name": "Gameover",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "429",
+            "name": "Klamp",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "430",
+            "name": "Slip Knot",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "431",
+            "name": "Bluerinse",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "432",
+            "name": "Tonix",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "433",
+            "name": "Speck",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "434",
+            "name": "Monochrome",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "435",
+            "name": "Tony",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "436",
+            "name": "Steve",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "437",
+            "name": "Honk",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "438",
+            "name": "Potter",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "439",
+            "name": "Winces Laws",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "440",
+            "name": "Waistrel",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "441",
+            "name": "Choppers",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "442",
+            "name": "Moldavia",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "443",
+            "name": "Taps",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "444",
+            "name": "Poo Person",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "445",
+            "name": "No-C",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "446",
+            "name": "Jacob",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "447",
+            "name": "Hand Print",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "448",
+            "name": "Diesel",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "449",
+            "name": "Bellyup",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "450",
+            "name": "Sapsucker",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "451",
+            "name": "Pullplug",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "452",
+            "name": "Bob",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "453",
+            "name": "Trip",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "454",
+            "name": "Blackhead",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "455",
+            "name": "Gordo (Mary)",
+            "description": "Parece uma bola gigante incomoda as pessoas na casa do vizinho."
+        },
+        {
+            "_id": "456",
+            "name": "Nub",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "457",
+            "name": "Hangnail",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "458",
+            "name": "Greaseprint",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "459",
+            "name": "Nobyte",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "460",
+            "name": "Noise",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "461",
+            "name": "Pacer",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "462",
+            "name": "Flat",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "463",
+            "name": "Keyz",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "464",
+            "name": "Sharpflat",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "465",
+            "name": "Skid",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "466",
+            "name": "Loomiere",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "467",
+            "name": "Scale",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "468",
+            "name": "Undewey",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "469",
+            "name": "Jitters",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "470",
+            "name": "Octopalmer",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "471",
+            "name": "Sneak",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "472",
+            "name": "Little Dorrat",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "473",
+            "name": "Tripsy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "474",
+            "name": "Dizzifier",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "475",
+            "name": "Therman",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "476",
+            "name": "Haasinator",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "477",
+            "name": "Buzz Cut",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "478",
+            "name": "Tire Slasher",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "479",
+            "name": "Lotta",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "480",
+            "name": "Tappity",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "481",
+            "name": "Twitch",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "482",
+            "name": "Gesundt",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "483",
+            "name": "Hiver",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "484",
+            "name": "Buffie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "485",
+            "name": "Period",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "486",
+            "name": "Grindz",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "487",
+            "name": "Crunkle",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "488",
+            "name": "Speirs",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "489",
+            "name": "Huggo",
+            "description": "Projetado para espremer a vida de uma pessoa. Ativado no final de Stitch! O Filme."
+        },
+        {
+            "_id": "490",
+            "name": "Stones",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "491",
+            "name": "Spikyhands",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "492",
+            "name": "Milston",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "493",
+            "name": "Enguard",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "494",
+            "name": "Mortamer",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "495",
+            "name": "Joy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "496",
+            "name": "Froggifier",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "497",
+            "name": "Copywronger",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "498",
+            "name": "Floods",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "499",
+            "name": "Brad",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "500",
+            "name": "Cooler",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "501",
+            "name": "Yin",
+            "description": "Esguicha água de seus tentáculos."
+        },
+        {
+            "_id": "502",
+            "name": "Yang",
+            "description": "Atira lava (Yin e Yang podem se juntar e ficar mais perigosos e poderosos do que antes e fazer terras novas,pontes,atacar os inimigos com lava derretida como Yin-yang)."
+        },
+        {
+            "_id": "503",
+            "name": "Comet",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "504",
+            "name": "Bling Bling",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "505",
+            "name": "Poluto (Ploot)",
+            "description": "Recolhe lixo e transforma-o em poluição."
+        },
+        {
+            "_id": "506",
+            "name": "Ug",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "507",
+            "name": "Lenhador (Woody)",
+            "description": "Tem o corpo de um castor,projetado para derrubar arvores e casas com sua garra."
+        },
+        {
+            "_id": "508",
+            "name": "Phil",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "509",
+            "name": "Brotinho (Sprout)",
+            "description": "Uma pequena planta indefesa, que quando as pessoas alimentam ela, 509 vira uma grande floresta de destruição e ataca as pessoas."
+        },
+        {
+            "_id": "510",
+            "name": "Drill",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "511",
+            "name": "Wilt",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "512",
+            "name": "Bog",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "513",
+            "name": "Richter",
+            "description": "Causa grandes terremotos que podem rachar um planeta no meio."
+        },
+        {
+            "_id": "514",
+            "name": "Cone",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "515",
+            "name": "Desflorestador (Deforestator)",
+            "description": "Com suas garras de lâmina e pescoço com espinhos destroí florestas inteiras."
+        },
+        {
+            "_id": "516",
+            "name": "Auntie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "517",
+            "name": "Parch",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "518",
+            "name": "Flame",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "519",
+            "name": "Splat",
+            "description": "Projetado para nivelar cidades inteiras com seu rolo enganosamente pequeno."
+        },
+        {
+            "_id": "520",
+            "name": "Barrigada (Cannonball)",
+            "description": "Pula na água e cria grandes ondas, que podem virar grandes Tsunamis que podem engolir uma ilha inteira."
+        },
+        {
+            "_id": "521",
+            "name": "Wrapper",
+            "description": "Projetado para embrulhar as coisas como uma múmia usando seu rolo de papel na cauda. Seu lugar é um com a Sra. Hasagawa como um de seus \"gatos\"."
+        },
+        {
+            "_id": "522",
+            "name": "Tarantula",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "523",
+            "name": "Geloso (Slushy)",
+            "description": "Congela tudo com seu sopro gelado, além de criar qualquer coisa feita de gelo e neve."
+        },
+        {
+            "_id": "524",
+            "name": "Shoveler",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "525",
+            "name": "Stoneface",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "526",
+            "name": "Gus",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "527",
+            "name": "Chip",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "528",
+            "name": "SPF",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "529",
+            "name": "Digger",
+            "description": "Projetado para fazer furos através de planetas. Seu lugar é nas minas. Ele foi ativado no final de Stitch! O Filme."
+        },
+        {
+            "_id": "530",
+            "name": "Crybaby",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "531",
+            "name": "Hisee",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "532",
+            "name": "Strata",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "533",
+            "name": "Soprador (Blowhard)",
+            "description": "A sua cabeça tem aparencia de um fumegador,ele assopra qualquer objeto a um altura grande."
+        },
+        {
+            "_id": "534",
+            "name": "Crabweed",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "535",
+            "name": "Spectrum",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "536",
+            "name": "Polar",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "537",
+            "name": "Rust",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "538",
+            "name": "Autumn",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "539",
+            "name": "Algae",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "540",
+            "name": "Fão (Phoon)",
+            "description": "Projetado para criar enorme tufão. Ela se transformou em uma forma mais forte depois de ter sido baleado por um raio de Jumba, mas voltou a sua forma original depois de ser colocada para dormir. Seu novo lar é criando ventos para windsurfer na praia."
+        },
+        {
+            "_id": "541",
+            "name": "Swell",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "542",
+            "name": "Hallie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "543",
+            "name": "Franklin",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "544",
+            "name": "Esmaga (Thresher)",
+            "description": "Criada para esmagar as pessoas com seus tentáculos enormes com bolas cheias de pequenos espinhos nas pontas."
+        },
+        {
+            "_id": "545",
+            "name": "Pompey",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "546",
+            "name": "Rip",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "547",
+            "name": "Cam",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "548",
+            "name": "Cheesy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "549",
+            "name": "Supersweet",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "550",
+            "name": "Clammy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "551",
+            "name": "Dryheat",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "552",
+            "name": "Astro",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "553",
+            "name": "Clipse",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "554",
+            "name": "Sol",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "555",
+            "name": "Liquefactor",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "556",
+            "name": "Berg II",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "557",
+            "name": "Cauldron",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "558",
+            "name": "Sepia",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "559",
+            "name": "Midasminus",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "560",
+            "name": "Prism",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "561",
+            "name": "He",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "562",
+            "name": "Hardy",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "563",
+            "name": "Silbert",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "564",
+            "name": "Lot's Wife",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "565",
+            "name": "Phosphor",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "566",
+            "name": "Derrick",
+            "description": "Projetado para perfurar buracos. Seu lugar é um verdadeiro com a Sra. Hasagawa como um de seus \"gatos\"."
+        },
+        {
+            "_id": "567",
+            "name": "Eva",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "568",
+            "name": "Slenky",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "569",
+            "name": "Glenn",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "570",
+            "name": "Frosty D.",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "571",
+            "name": "Dusty",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "572",
+            "name": "Dropcall",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "573",
+            "name": "Handoman",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "574",
+            "name": "Lardo",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "575",
+            "name": "Magnarette",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "576",
+            "name": "Darn",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "577",
+            "name": "Oof",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "578",
+            "name": "Carrie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "579",
+            "name": "Spinster",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "580",
+            "name": "Friday",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "581",
+            "name": "Roadie",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "582",
+            "name": "Spout",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "583",
+            "name": "Blake",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "584",
+            "name": "Balar",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "585",
+            "name": "Petrifier",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "586",
+            "name": "Tank",
+            "description": "Come tudo feito de metal e fica maior a cada mordida."
+        },
+        {
+            "_id": "587",
+            "name": "Noviz",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "588",
+            "name": "Sa",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "589",
+            "name": "Stoopinslide",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "590",
+            "name": "Baron Meter",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "591",
+            "name": "Squidly",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "592",
+            "name": "Deodorant",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "593",
+            "name": "Heatwaver",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "594",
+            "name": "Ruth",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "595",
+            "name": "Icecrusher",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "596",
+            "name": "El Carbon",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "597",
+            "name": "Zirconia",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "598",
+            "name": "Gluteous",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "599",
+            "name": "Tattoo",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "600",
+            "name": "Opa! (Woops)",
+            "description": "É um desastrado burro que quebra tudo (sem querer) e só sabe dizer \"Ôpa!\" (e Jumba queria que ele um grande destruidor que pudesse fazer de tudo)."
+        },
+        {
+            "_id": "601",
+            "name": "Quico (Kixx)",
+            "description": "Luta com as pessoas só para machuca-lás."
+        },
+        {
+            "_id": "602",
+            "name": "Afunda (Sinker)",
+            "description": "Afunda barcos cortando eles no meio."
+        },
+        {
+            "_id": "603",
+            "name": "Zap",
+            "description": "Uma bala de laser viva que sai destruindo tudo."
+        },
+        {
+            "_id": "604",
+            "name": "Houdini",
+            "description": "Num piscar de olhos, torna pessoas ou objetos invisíveis."
+        },
+        {
+            "_id": "605",
+            "name": "Warpstron",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "606",
+            "name": "Holio",
+            "description": "Quando abre sua imensa boca cria um grande buraco negro que suga planetas."
+        },
+        {
+            "_id": "607",
+            "name": "Launch",
+            "description": "Torce o tecido do espaço e do tempo fazendo o universo inteiro deixar de existir."
+        },
+        {
+            "_id": "608",
+            "name": "Rebate (Slugger)",
+            "description": "Rebate projetéis dos inimigos com muita força."
+        },
+        {
+            "_id": "609",
+            "name": "Calor (Heat)",
+            "description": "Atira raios de fogo e calor da testa."
+        },
+        {
+            "_id": "610",
+            "name": "Witch",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "611",
+            "name": "El Fin (Doomsday)",
+            "description": "É uma super arma de destruição.(Experiencia ainda não ativada)"
+        },
+        {
+            "_id": "612",
+            "name": "Blandzilla",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "613",
+            "name": "Yaarp",
+            "description": "Destrói as coisas com ataques super sônicos que saem da sua cabeça megafonica."
+        },
+        {
+            "_id": "614",
+            "name": "Gunner",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "615",
+            "name": "Yogee",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "616",
+            "name": "Joey",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "617",
+            "name": "Plasmóide (Plasmoid)",
+            "description": "Atira bolas de plasma da cauda."
+        },
+        {
+            "_id": "618",
+            "name": "Crystallene",
+            "description": "Função desconhecida"
+        },
+        {
+            "_id": "619",
+            "name": "Esquentadinho (Splodyhead)",
+            "description": "Atira bolas de fogo de seu nariz. Teve rivalidade com 523 (Geloso)."
+        },
+        {
+            "_id": "620",
+            "name": "Page",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "621",
+            "name": "Chopsuey",
+            "description": "Ele tem todos os poderes de Stitch."
+        },
+        {
+            "_id": "622",
+            "name": "Jumby",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "623",
+            "name": "Trainer",
+            "description": "Função desconhecida."
+        },
+        {
+            "_id": "624",
+            "name": "Anjinha (Angel)",
+            "description": "Bagunceira e peralta como Stitch, canta uma música que faz com que as pessoas fiquem más. Se Anjinha cantar a música ao contrário as pessoas voltam a ser boas. A música não afeta as experiências posteriores a Anjinha, ou seja não afeta o Reuben (625) e nem o Stitch (626)."
+        },
+        {
+            "_id": "625",
+            "name": "Reuben",
+            "description": "Tem todos os poderes de Stitch, mas infelizmente é preguiçoso, covarde e se recusa a usá-los. Seu maior e único talento é fazer sanduíches"
+        },
+        {
+            "_id": "626",
+            "name": "Stitch",
+            "description": "Pode levantar 3000 vezes seu peso com quatro braços poderia levantar 12000 é mais inteligente que um super computador, é indestrutível não pode sentir muito efeito dos primos igual quando o Meleco o sugou mas se recuperou foi feito para destruir grandes cidades. Mas por causa de Lilo ele passou para o lado do bem. A sua fraqueza é não saber nadar e algumas coisas que ele come e faz mal."
+        },
+        {
+            "_id": "627",
+            "name": "Evile",
+            "description": "Uma versão maior e mais forte de Stitch. Tem todos os poderes de Stitch e de mais 20 experiências, menos as fraquezas, ou seja consegue nadar e também não pode ser levado para o lado do bem, sua fraqueza é que ele não pode conter o riso por isso é capaz de ter um ataque de risadas e desmaiar de tanto rir. Sua forma verdadeira tem 3 braços 2 cabeças com antena e espinhos não parece ser gênio é mais alto e é vermelho."
+        },
+        {
+            "_id": "628",
+            "name": "Cyber",
+            "description": "Projetado para ser maior e melhor que Stitch e 627 e possuir o poder de 50 experiências."
+        },
+        {
+            "_id": "629",
+            "name": "Leroy",
+            "description": "Gêmeo malvado do Stitch. São quase idênticos, exceto pelo fato de ser vermelho, as antenas da cabeça e os espinhos nas costas serem um pouco mais dobradas e os dentes serem amarelados. Antes de Leroy ser criado Jumba iria criá-lo como um modelo semelhante ao do Stitch até Hamestervil aparecer fazendo prender e fazer ele construir uma nova versão do 626 com as mesmas capacidades destrutitivas, mas menos, ou seja ele tem todos os poderes do Stitch.e seria difícel derrotar alguém destrutivo o estranho é que ele pode mudar de cor. Seu único ponto fraco é que ele desmaia se escutar a música Aloha."
+        }
+] 
