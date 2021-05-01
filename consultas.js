@@ -107,3 +107,33 @@ db.combats.aggregate([
     }
 ]).pretty() 
 
+// Quais são filmes que foram adicionados até 2010?
+db.netflix.aggregate([
+    {
+        $match: {
+            date_added: {
+                $lte: ISODate("2010-12-31"),
+                $gte: ISODate("2009-01-01")
+            }
+        }
+    }
+])
+
+// $year: date: ISODate("2010-12-31") //exemplo de query utilizando operador year
+
+db.netflix.aggregate([
+    {
+        $addFields:{ //para gerar campo para match
+            year_added:{
+                $year: "$date_added"
+            }
+        }
+    },
+    {
+        $match: {
+            year_added:{
+                $lte: 2010
+            }
+        }
+    }
+]).pretty()
